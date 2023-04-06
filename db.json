@@ -1,6 +1,8 @@
 {
  "Admin": 
- [{"email":"admin@gmail.com","password":"123"}]
+ [{"email":"admin@gmail.com","password":"1234"},
+  {"email":"admin1@gmail.com","password":"123"}
+]
  ,
  "Employees": 
  [{"fullname":"Alvie Copozio","email":"acopozio0@vk.com","gender":"Male","address":"363 Service Alley","phone":"(786) 1554473","birthday":"27/03/2001","photo":"http://dummyimage.com/182x151.png/ff4444/ffffff","password":"123"},
