@@ -1,102 +1,311 @@
 {
- "Admin": 
- [{"email":"admin@gmail.com","password":"123"}]
- ,
- "Employees": 
- [{"fullname":"Alvie Copozio","email":"acopozio0@vk.com","gender":"Male","address":"363 Service Alley","phone":"(786) 1554473","birthday":"27/03/2001","photo":"http://dummyimage.com/182x151.png/ff4444/ffffff","password":"123"},
-{"fullname":"Ramsey Rosberg","email":"rrosberg1@ibm.com","gender":"Male","address":"6187 Burrows Center","phone":"(715) 3116971","birthday":"25/04/1996","photo":"http://dummyimage.com/176x196.png/dddddd/000000","password":"123"},
-{"fullname":"Natala Eke","email":"neke2@china.com.cn","gender":"Female","address":"1 Esker Point","phone":"(113) 7442515","birthday":"19/10/2002","photo":"http://dummyimage.com/162x155.png/ff4444/ffffff","password":"123"},
-{"fullname":"Christabel Lindup","email":"clindup3@taobao.com","gender":"Female","address":"2655 Roxbury Drive","phone":"(311) 2451823","birthday":"14/11/1991","photo":"http://dummyimage.com/181x166.png/dddddd/000000","password":"123"},
-{"fullname":"Trueman Kollaschek","email":"tkollaschek4@technorati.com","gender":"Male","address":"0086 Monterey Alley","phone":"(833) 5019701","birthday":"25/12/1995","photo":"http://dummyimage.com/186x184.png/cc0000/ffffff","password":"123"}]
-,
-
-"Customer":
-[{"fullname":"Reta Karolczyk","email":"rkarolczyk0@umn.edu","gender":"Female","address":"812 Lindbergh Circle","phone":"(952) 3640498","birthday":"04/08/2002","photo":"http://dummyimage.com/187x178.png/ff4444/ffffff","password":"123"},
-{"fullname":"Gertruda Plevey","email":"gplevey1@springer.com","gender":"Female","address":"6066 Northwestern Trail","phone":"(583) 2363250","birthday":"29/05/1997","photo":"http://dummyimage.com/171x174.png/5fa2dd/ffffff","password":"v8pPVL7HB1NK"},
-{"fullname":"Pate Bodle","email":"pbodle2@imdb.com","gender":"Male","address":"02 Warner Court","phone":"(898) 5216196","birthday":"22/06/1994","photo":"http://dummyimage.com/186x171.png/5fa2dd/ffffff","password":"9d2OUHJK"},
-{"fullname":"Javier Honnicott","email":"jhonnicott3@booking.com","gender":"Male","address":"3 Eggendart Plaza","phone":"(361) 7245297","birthday":"22/12/1997","photo":"http://dummyimage.com/167x168.png/5fa2dd/ffffff","password":"xOHD2SALUG6O"},
-{"fullname":"Athene Detloff","email":"adetloff4@lulu.com","gender":"Female","address":"66798 Ilene Circle","phone":"(901) 6764729","birthday":"14/02/1994","photo":"http://dummyimage.com/161x198.png/5fa2dd/ffffff","password":"lYEkJrui9N"},
-{"fullname":"Jarib Pendlebery","email":"jpendlebery5@indiegogo.com","gender":"Male","address":"848 Amoth Circle","phone":"(487) 4854813","birthday":"20/01/2002","photo":"http://dummyimage.com/170x176.png/dddddd/000000","password":"92tkKFb"},
-{"fullname":"Dulci Longforth","email":"dlongforth6@technorati.com","gender":"Female","address":"395 Delladonna Circle","phone":"(557) 3298700","birthday":"31/07/2001","photo":"http://dummyimage.com/187x199.png/ff4444/ffffff","password":"9iVhlpINZV0U"},
-{"fullname":"Myriam Annand","email":"mannand7@latimes.com","gender":"Female","address":"425 Prairie Rose Plaza","phone":"(203) 6106759","birthday":"29/10/1997","photo":"http://dummyimage.com/198x157.png/cc0000/ffffff","password":"NQdYfLRNVR1I"},
-{"fullname":"Zackariah Julian","email":"zjulian8@lulu.com","gender":"Male","address":"004 Sachtjen Alley","phone":"(421) 6974899","birthday":"19/08/1992","photo":"http://dummyimage.com/177x165.png/ff4444/ffffff","password":"w6xjGRlfAeV"},
-{"fullname":"Mariele Maccaig","email":"mmaccaig9@nifty.com","gender":"Female","address":"538 Fuller Street","phone":"(557) 5978383","birthday":"10/03/1993","photo":"http://dummyimage.com/196x180.png/dddddd/000000","password":"Orsyb1NFreq"},
-{"fullname":"Darcey Harborow","email":"dharborowa@ca.gov","gender":"Female","address":"3415 Delaware Circle","phone":"(682) 4541234","birthday":"23/05/2004","photo":"http://dummyimage.com/178x150.png/ff4444/ffffff","password":"T4Pa1Qe56eU8"},
-{"fullname":"Bourke Currington","email":"bcurringtonb@histats.com","gender":"Male","address":"19 Elmside Avenue","phone":"(136) 8614149","birthday":"04/01/2001","photo":"http://dummyimage.com/189x185.png/dddddd/000000","password":"rzimYcjNun"},
-{"fullname":"Cassi Duffill","email":"cduffillc@cnn.com","gender":"Female","address":"29832 Artisan Hill","phone":"(318) 3962649","birthday":"11/04/2004","photo":"http://dummyimage.com/185x193.png/dddddd/000000","password":"MJw9gt"},
-{"fullname":"Carmine Spaughton","email":"cspaughtond@virginia.edu","gender":"Male","address":"003 3rd Pass","phone":"(611) 1119008","birthday":"12/03/1997","photo":"http://dummyimage.com/173x152.png/cc0000/ffffff","password":"vM5VFo0LEU"},
-{"fullname":"Tamara Callum","email":"tcallume@salon.com","gender":"Female","address":"8 Marquette Alley","phone":"(536) 3776783","birthday":"02/01/1996","photo":"http://dummyimage.com/155x161.png/5fa2dd/ffffff","password":"ZPcM91Ru"}]
-,
-"Category":
-[{
-  "id": 1,
-  "CategoryName": "Áo Hoodie",
-  "Description": "Áo thu đông"
-}, {
-  "id": 2,
-  "CategoryName": "Áo Vest và Balzer",
-  "Description": "Áo quý ông"
-}, {
-  "id": 3,
-  "CategoryName": "Áo Khoác",
-  "Description": "Áo thu đông"
-}, {
-  "id": 4,
-  "CategoryName": "Áo Ba lỗ",
-  "Description": "Áo mùa hè"
-}, {
-  "id": 5,
-  "CategoryName": "Quần Jean",
-  "Description": "Mang vào sẽ đẹp trai hơn"
-}, {
-  "id": 6,
-  "CategoryName": "Quần dài/Quần âu",
-  "Description": "Sự quý phái đang ở đây"
-}, {
-  "id": 7,
-  "CategoryName": "Quần Short",
-  "Description": "Quần làm tăng độ đẹp trai của bạn"
-}],
-"Supplier":
-[{
-  "id": 1,
-  "SupplierName": "Cty THHH Hạnh Hoa Hồng",
-  "ContactName": "CTy TNHH Một Thành Viên HanhDR",
-  "Address": "939 Riverside Road",
-  "Phone": "546-409-4692",
-  "Country": "China",
-  "City": "Qincheng"
-}, {
-  "id": 2,
-  "SupplierName": "Cty THHH Quyền Anh",
-  "ContactName": "CTy TNHH Một Thành Viên DuCJDK",
-  "Address": "08997 Schiller Hill",
-  "Phone": "668-847-7905",
-  "Country": "China",
-  "City": "Qiaozi"
-}, {
-  "id": 3,
-  "SupplierName": "Cty THHH Thiện Phước",
-  "ContactName": "CTy TNHH Một Thành Viên Thien101",
-  "Address": "3 Merchant Circle",
-  "Phone": "625-481-8722",
-  "Country": "Palestinian Territory",
-  "City": "Khallat Şāliḩ"
-}, {
-  "id": 4,
-  "SupplierName": "Cty THHH Trung Phan",
-  "ContactName": "CTy TNHH Một Thành Viên PCT",
-  "Address": "25903 Eggendart Lane",
-  "Phone": "734-113-4904",
-  "Country": "Indonesia",
-  "City": "Margasari"
-}, {
-  "id": 5,
-  "SupplierName": "Cty THHH Đức Trọng",
-  "ContactName": "CTy TNHH Một Thành Viên DuCJDK",
-  "Address": "38348 Esch Court",
-  "Phone": "926-203-1125",
-  "Country": "Portugal",
-  "City": "Cancela"
-}]
+  "Employees": [
+    { "id": 1, "email": "admin@gmail.com", "password": "123" },
+    {
+      "id": 1,
+      "fullname": "Alvie Copozio",
+      "email": "acopozio0@vk.com",
+      "gender": "Male",
+      "address": "363 Service Alley",
+      "phone": "(786) 1554473",
+      "birthday": "27/03/2001",
+      "photo": "http://dummyimage.com/182x151.png/ff4444/ffffff",
+      "password": "123"
+    },
+    {
+      "id": 3,
+      "fullname": "Ramsey Rosberg",
+      "email": "rrosberg1@ibm.com",
+      "gender": "Male",
+      "address": "6187 Burrows Center",
+      "phone": "(715) 3116971",
+      "birthday": "25/04/1996",
+      "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
+      "password": "123"
+    },
+    {
+      "id": 4,
+      "fullname": "Natala Eke",
+      "email": "neke2@china.com.cn",
+      "gender": "Female",
+      "address": "1 Esker Point",
+      "phone": "(113) 7442515",
+      "birthday": "19/10/2002",
+      "photo": "http://dummyimage.com/162x155.png/ff4444/ffffff",
+      "password": "123"
+    },
+    {
+      "id": 5,
+      "fullname": "Christabel Lindup",
+      "email": "clindup3@taobao.com",
+      "gender": "Female",
+      "address": "2655 Roxbury Drive",
+      "phone": "(311) 2451823",
+      "birthday": "14/11/1991",
+      "photo": "http://dummyimage.com/181x166.png/dddddd/000000",
+      "password": "123"
+    },
+    {
+      "id": 6,
+      "fullname": "Trueman Kollaschek",
+      "email": "tkollaschek4@technorati.com",
+      "gender": "Male",
+      "address": "0086 Monterey Alley",
+      "phone": "(833) 5019701",
+      "birthday": "25/12/1995",
+      "photo": "http://dummyimage.com/186x184.png/cc0000/ffffff",
+      "password": "123"
+    }
+  ],
+  "Customer": [
+    {
+      "id": 1,
+      "fullname": "Reta Karolczyk",
+      "email": "rkarolczyk0@umn.edu",
+      "gender": "Female",
+      "address": "812 Lindbergh Circle",
+      "phone": "(952) 3640498",
+      "birthday": "04/08/2002",
+      "photo": "http://dummyimage.com/187x178.png/ff4444/ffffff",
+      "password": "123"
+    },
+    {
+      "id": 2,
+      "fullname": "Gertruda Plevey",
+      "email": "gplevey1@springer.com",
+      "gender": "Female",
+      "address": "6066 Northwestern Trail",
+      "phone": "(583) 2363250",
+      "birthday": "29/05/1997",
+      "photo": "http://dummyimage.com/171x174.png/5fa2dd/ffffff",
+      "password": "v8pPVL7HB1NK"
+    },
+    {
+      "id": 3,
+      "fullname": "Pate Bodle",
+      "email": "pbodle2@imdb.com",
+      "gender": "Male",
+      "address": "02 Warner Court",
+      "phone": "(898) 5216196",
+      "birthday": "22/06/1994",
+      "photo": "http://dummyimage.com/186x171.png/5fa2dd/ffffff",
+      "password": "9d2OUHJK"
+    },
+    {
+      "id": 4,
+      "fullname": "Javier Honnicott",
+      "email": "jhonnicott3@booking.com",
+      "gender": "Male",
+      "address": "3 Eggendart Plaza",
+      "phone": "(361) 7245297",
+      "birthday": "22/12/1997",
+      "photo": "http://dummyimage.com/167x168.png/5fa2dd/ffffff",
+      "password": "xOHD2SALUG6O"
+    },
+    {
+      "id": 5,
+      "fullname": "Athene Detloff",
+      "email": "adetloff4@lulu.com",
+      "gender": "Female",
+      "address": "66798 Ilene Circle",
+      "phone": "(901) 6764729",
+      "birthday": "14/02/1994",
+      "photo": "http://dummyimage.com/161x198.png/5fa2dd/ffffff",
+      "password": "lYEkJrui9N"
+    },
+    {
+      "id": 6,
+      "fullname": "Jarib Pendlebery",
+      "email": "jpendlebery5@indiegogo.com",
+      "gender": "Male",
+      "address": "848 Amoth Circle",
+      "phone": "(487) 4854813",
+      "birthday": "20/01/2002",
+      "photo": "http://dummyimage.com/170x176.png/dddddd/000000",
+      "password": "92tkKFb"
+    },
+    {
+      "id": 7,
+      "fullname": "Dulci Longforth",
+      "email": "dlongforth6@technorati.com",
+      "gender": "Female",
+      "address": "395 Delladonna Circle",
+      "phone": "(557) 3298700",
+      "birthday": "31/07/2001",
+      "photo": "http://dummyimage.com/187x199.png/ff4444/ffffff",
+      "password": "9iVhlpINZV0U"
+    },
+    {
+      "id": 8,
+      "fullname": "Myriam Annand",
+      "email": "mannand7@latimes.com",
+      "gender": "Female",
+      "address": "425 Prairie Rose Plaza",
+      "phone": "(203) 6106759",
+      "birthday": "29/10/1997",
+      "photo": "http://dummyimage.com/198x157.png/cc0000/ffffff",
+      "password": "NQdYfLRNVR1I"
+    },
+    {
+      "id": 9,
+      "fullname": "Zackariah Julian",
+      "email": "zjulian8@lulu.com",
+      "gender": "Male",
+      "address": "004 Sachtjen Alley",
+      "phone": "(421) 6974899",
+      "birthday": "19/08/1992",
+      "photo": "http://dummyimage.com/177x165.png/ff4444/ffffff",
+      "password": "w6xjGRlfAeV"
+    },
+    {
+      "id": 10,
+      "fullname": "Mariele Maccaig",
+      "email": "mmaccaig9@nifty.com",
+      "gender": "Female",
+      "address": "538 Fuller Street",
+      "phone": "(557) 5978383",
+      "birthday": "10/03/1993",
+      "photo": "http://dummyimage.com/196x180.png/dddddd/000000",
+      "password": "Orsyb1NFreq"
+    },
+    {
+      "id": 11,
+      "fullname": "Darcey Harborow",
+      "email": "dharborowa@ca.gov",
+      "gender": "Female",
+      "address": "3415 Delaware Circle",
+      "phone": "(682) 4541234",
+      "birthday": "23/05/2004",
+      "photo": "http://dummyimage.com/178x150.png/ff4444/ffffff",
+      "password": "T4Pa1Qe56eU8"
+    },
+    {
+      "id": 12,
+      "fullname": "Bourke Currington",
+      "email": "bcurringtonb@histats.com",
+      "gender": "Male",
+      "address": "19 Elmside Avenue",
+      "phone": "(136) 8614149",
+      "birthday": "04/01/2001",
+      "photo": "http://dummyimage.com/189x185.png/dddddd/000000",
+      "password": "rzimYcjNun"
+    },
+    {
+      "id": 13,
+      "fullname": "Cassi Duffill",
+      "email": "cduffillc@cnn.com",
+      "gender": "Female",
+      "address": "29832 Artisan Hill",
+      "phone": "(318) 3962649",
+      "birthday": "11/04/2004",
+      "photo": "http://dummyimage.com/185x193.png/dddddd/000000",
+      "password": "MJw9gt"
+    },
+    {
+      "id": 14,
+      "fullname": "Carmine Spaughton",
+      "email": "cspaughtond@virginia.edu",
+      "gender": "Male",
+      "address": "003 3rd Pass",
+      "phone": "(611) 1119008",
+      "birthday": "12/03/1997",
+      "photo": "http://dummyimage.com/173x152.png/cc0000/ffffff",
+      "password": "vM5VFo0LEU"
+    },
+    {
+      "id": 15,
+      "fullname": "Tamara Callum",
+      "email": "tcallume@salon.com",
+      "gender": "Female",
+      "address": "8 Marquette Alley",
+      "phone": "(536) 3776783",
+      "birthday": "02/01/1996",
+      "photo": "http://dummyimage.com/155x161.png/5fa2dd/ffffff",
+      "password": "ZPcM91Ru"
+    }
+  ],
+  "Category": [
+    {
+      "id": 1,
+      "CategoryName": "Áo Hoodie",
+      "Description": "Áo thu đông"
+    },
+    {
+      "id": 2,
+      "CategoryName": "Áo Vest và Balzer",
+      "Description": "Áo quý ông"
+    },
+    {
+      "id": 3,
+      "CategoryName": "Áo Khoác",
+      "Description": "Áo thu đông"
+    },
+    {
+      "id": 4,
+      "CategoryName": "Áo Ba lỗ",
+      "Description": "Áo mùa hè"
+    },
+    {
+      "id": 5,
+      "CategoryName": "Quần Jean",
+      "Description": "Mang vào sẽ đẹp trai hơn"
+    },
+    {
+      "id": 6,
+      "CategoryName": "Quần dài/Quần âu",
+      "Description": "Sự quý phái đang ở đây"
+    },
+    {
+      "id": 7,
+      "CategoryName": "Quần Short",
+      "Description": "Quần làm tăng độ đẹp trai của bạn"
+    }
+  ],
+  "Supplier": [
+    {
+      "id": 1,
+      "SupplierName": "Cty THHH Hạnh Hoa Hồng",
+      "ContactName": "CTy TNHH Một Thành Viên HanhDR",
+      "Address": "939 Riverside Road",
+      "Phone": "546-409-4692",
+      "Country": "China",
+      "City": "Qincheng"
+    },
+    {
+      "id": 2,
+      "SupplierName": "Cty THHH Quyền Anh",
+      "ContactName": "CTy TNHH Một Thành Viên DuCJDK",
+      "Address": "08997 Schiller Hill",
+      "Phone": "668-847-7905",
+      "Country": "China",
+      "City": "Qiaozi"
+    },
+    {
+      "id": 3,
+      "SupplierName": "Cty THHH Thiện Phước",
+      "ContactName": "CTy TNHH Một Thành Viên Thien101",
+      "Address": "3 Merchant Circle",
+      "Phone": "625-481-8722",
+      "Country": "Palestinian Territory",
+      "City": "Khallat Şāliḩ"
+    },
+    {
+      "id": 4,
+      "SupplierName": "Cty THHH Trung Phan",
+      "ContactName": "CTy TNHH Một Thành Viên PCT",
+      "Address": "25903 Eggendart Lane",
+      "Phone": "734-113-4904",
+      "Country": "Indonesia",
+      "City": "Margasari"
+    },
+    {
+      "id": 5,
+      "SupplierName": "Cty THHH Đức Trọng",
+      "ContactName": "CTy TNHH Một Thành Viên DuCJDK",
+      "Address": "38348 Esch Court",
+      "Phone": "926-203-1125",
+      "Country": "Portugal",
+      "City": "Cancela"
+    }
+  ]
 }
