@@ -251,7 +251,7 @@
       "ContactName": "CTy TNHH Một Thành Viên HanhDR",
       "Address": "939 Riverside Road",
       "Phone": "05464094692",
-      "Country": "China",
+      "Country": "VietNam",
       "City": "Qincheng",
       "id": 1
     },
@@ -261,7 +261,7 @@
       "ContactName": "CTy TNHH Một Thành Viên DuCJDK",
       "Address": "08997 Schiller Hill",
       "Phone": "668-847-7905",
-      "Country": "China",
+      "Country": "VietNam",
       "City": "Qiaozi"
     },
     {
@@ -270,7 +270,7 @@
       "ContactName": "CTy TNHH Một Thành Viên Thien101",
       "Address": "3 Merchant Circle",
       "Phone": "625-481-8722",
-      "Country": "Palestinian Territory",
+      "Country": "VietNam",
       "City": "Khallat Şāliḩ"
     },
     {
@@ -279,7 +279,7 @@
       "ContactName": "CTy TNHH Một Thành Viên PCT",
       "Address": "25903 Eggendart Lane",
       "Phone": "734-113-4904",
-      "Country": "Indonesia",
+      "Country": "VietNam",
       "City": "Margasari"
     },
     {
@@ -288,7 +288,7 @@
       "ContactName": "CTy TNHH Một Thành Viên DuCJDK",
       "Address": "38348 Esch Court",
       "Phone": "926-203-1125",
-      "Country": "Portugal",
+      "Country": "VietNam",
       "City": "Cancela"
     },
     {
@@ -296,7 +296,7 @@
       "ContactName": "CTy TNHH Một Thành Viên DuCJDK",
       "Address": "38348 Esch Court",
       "Phone": "5464094692",
-      "Country": "Portugal",
+      "Country": "VietNam",
       "City": "Cancela",
       "id": 6
     }
@@ -636,7 +636,7 @@
     },
     {
       "id": 84,
-      "CountryName": "Vietnam"
+      "CountryName": "VietNam"
     },
     {
       "id": 85,
