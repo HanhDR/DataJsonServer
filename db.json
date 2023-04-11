@@ -6,6 +6,7 @@
       "password": "123"
     },
     {
+      "id": 2,
       "fullname": "Alvie Copozio",
       "email": "acopozio0@vk.com",
       "gender": "Male",
@@ -16,6 +17,7 @@
       "password": "123"
     },
     {
+      "id": 3,
       "fullname": "Ramsey Rosberg",
       "email": "rrosberg1@ibm.com",
       "gender": "Male",
@@ -26,6 +28,7 @@
       "password": "123"
     },
     {
+      "id": 4,
       "fullname": "Natala Eke",
       "email": "neke2@china.com.cn",
       "gender": "Female",
@@ -36,6 +39,7 @@
       "password": "123"
     },
     {
+      "id": 5,
       "fullname": "Christabel Lindup",
       "email": "clindup3@taobao.com",
       "gender": "Female",
@@ -46,6 +50,7 @@
       "password": "123"
     },
     {
+      "id": 6,
       "fullname": "Trueman Kollaschek",
       "email": "tkollaschek4@technorati.com",
       "gender": "Male",
@@ -56,8 +61,9 @@
       "password": "123"
     }
   ],
-  "Customer": [
+  "Customers": [
     {
+      "id": 1,
       "fullname": "Reta Karolczyk",
       "email": "rkarolczyk0@umn.edu",
       "gender": "Female",
@@ -68,6 +74,7 @@
       "password": "123"
     },
     {
+      "id": 1,
       "fullname": "Gertruda Plevey",
       "email": "gplevey1@springer.com",
       "gender": "Female",
@@ -78,6 +85,7 @@
       "password": "v8pPVL7HB1NK"
     },
     {
+      "id": 2,
       "fullname": "Pate Bodle",
       "email": "pbodle2@imdb.com",
       "gender": "Male",
@@ -88,6 +96,7 @@
       "password": "9d2OUHJK"
     },
     {
+      "id": 3,
       "fullname": "Javier Honnicott",
       "email": "jhonnicott3@booking.com",
       "gender": "Male",
@@ -98,6 +107,7 @@
       "password": "xOHD2SALUG6O"
     },
     {
+      "id": 4,
       "fullname": "Athene Detloff",
       "email": "adetloff4@lulu.com",
       "gender": "Female",
@@ -108,6 +118,7 @@
       "password": "lYEkJrui9N"
     },
     {
+      "id": 5,
       "fullname": "Jarib Pendlebery",
       "email": "jpendlebery5@indiegogo.com",
       "gender": "Male",
@@ -118,6 +129,7 @@
       "password": "92tkKFb"
     },
     {
+      "id": 6,
       "fullname": "Dulci Longforth",
       "email": "dlongforth6@technorati.com",
       "gender": "Female",
@@ -128,6 +140,7 @@
       "password": "9iVhlpINZV0U"
     },
     {
+      "id": 7,
       "fullname": "Myriam Annand",
       "email": "mannand7@latimes.com",
       "gender": "Female",
@@ -138,6 +151,7 @@
       "password": "NQdYfLRNVR1I"
     },
     {
+      "id": 8,
       "fullname": "Zackariah Julian",
       "email": "zjulian8@lulu.com",
       "gender": "Male",
@@ -148,6 +162,7 @@
       "password": "w6xjGRlfAeV"
     },
     {
+      "id": 9,
       "fullname": "Mariele Maccaig",
       "email": "mmaccaig9@nifty.com",
       "gender": "Female",
@@ -158,6 +173,7 @@
       "password": "Orsyb1NFreq"
     },
     {
+      "id": 10,
       "fullname": "Darcey Harborow",
       "email": "dharborowa@ca.gov",
       "gender": "Female",
@@ -168,6 +184,7 @@
       "password": "T4Pa1Qe56eU8"
     },
     {
+      "id": 11,
       "fullname": "Bourke Currington",
       "email": "bcurringtonb@histats.com",
       "gender": "Male",
@@ -178,6 +195,7 @@
       "password": "rzimYcjNun"
     },
     {
+      "id": 12,
       "fullname": "Cassi Duffill",
       "email": "cduffillc@cnn.com",
       "gender": "Female",
@@ -188,6 +206,7 @@
       "password": "MJw9gt"
     },
     {
+      "id": 13,
       "fullname": "Carmine Spaughton",
       "email": "cspaughtond@virginia.edu",
       "gender": "Male",
@@ -198,6 +217,7 @@
       "password": "vM5VFo0LEU"
     },
     {
+      "id": 14,
       "fullname": "Tamara Callum",
       "email": "tcallume@salon.com",
       "gender": "Female",
@@ -208,7 +228,7 @@
       "password": "ZPcM91Ru"
     }
   ],
-  "Category": [
+  "Categories": [
     {
       "id": 1,
       "CategoryName": "Áo Hoodie",
@@ -245,7 +265,7 @@
       "Description": "Quần làm tăng độ đẹp trai của bạn"
     }
   ],
-  "Supplier": [
+  "Suppliers": [
     {
       "SupplierName": "Cty THHH Duc Hoa Hồng 1",
       "ContactName": "CTy TNHH Một Thành Viên HanhDR",
@@ -301,7 +321,7 @@
       "id": 6
     }
   ],
-  "Country": [
+  "Countries": [
     {
       "id": 1,
       "CountryName": "Mexico"
@@ -701,6 +721,22 @@
     {
       "id": 100,
       "CountryName": "Philippines"
+    }
+  ],
+  "Products": [
+    {
+      "id": 1,
+      "ProductName": "Ao long cuu",
+      "Price": 2000,
+      "CategoryId": 1,
+      "SupplierId": 1,
+      "Unit": "Chai"
+    }
+  ],
+  "Orders": [
+    {
+      "OrderId": 1,
+      "OrderList": []
     }
   ]
 }
