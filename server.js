@@ -8,7 +8,9 @@ const server = jsonServer.create();
 
 const router = jsonServer.router("./db.json");
 
-const userdb = JSON.parse(fs.readFileSync("./users.json", "UTF-8"));
+const data = JSON.parse(fs.readFileSync("./db.json", "UTF-8"));
+const userdb = data.users;
+log(userdb);
 
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
@@ -31,10 +33,10 @@ function verifyToken(token) {
 
 // Check if the user exists in database
 function isAuthenticated({ email, password }) {
-  const indexUser = userdb.users.findIndex(
+  const indexUser = userdb.findIndex(
     (user) => user.email === email && user.password === password
   );
-  if (indexUser !== -1) return userdb.users[indexUser];
+  if (indexUser !== -1) return userdb[indexUser];
   return false;
 }
 
