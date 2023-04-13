@@ -1,4 +1,70 @@
 {
+  "users": [
+    {
+      "fullname": "Duc HHanu",
+      "email": "admin@gmail.com",
+      "address": "363 Service Alley",
+      "birthday": "27/03/2001",
+      "gender": "Male",
+      "phone": "(786) 1554473",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "fullname": "Alvie Copozio",
+      "email": "acopozio0@vk.com",
+      "gender": "Male",
+      "address": "363 Service Alley",
+      "phone": "(786) 1554473",
+      "birthday": "27/03/2001",
+      "photo": "http://dummyimage.com/182x151.png/ff4444/ffffff",
+      "password": "123"
+    },
+    {
+      "id": 3,
+      "fullname": "Ramsey Rosberg",
+      "email": "rrosberg1@ibm.com",
+      "gender": "Male",
+      "address": "6187 Burrows Center",
+      "phone": "(715) 3116971",
+      "birthday": "25/04/1996",
+      "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
+      "password": "123"
+    },
+    {
+      "id": 4,
+      "fullname": "Natala Eke",
+      "email": "neke2@china.com.cn",
+      "gender": "Female",
+      "address": "1 Esker Point",
+      "phone": "(113) 7442515",
+      "birthday": "19/10/2002",
+      "photo": "http://dummyimage.com/162x155.png/ff4444/ffffff",
+      "password": "123"
+    },
+    {
+      "id": 5,
+      "fullname": "Christabel Lindup",
+      "email": "clindup3@taobao.com",
+      "gender": "Female",
+      "address": "2655 Roxbury Drive",
+      "phone": "(311) 2451823",
+      "birthday": "14/11/1991",
+      "photo": "http://dummyimage.com/181x166.png/dddddd/000000",
+      "password": "123"
+    },
+    {
+      "id": 6,
+      "fullname": "Trueman Kollaschek",
+      "email": "tkollaschek4@technorati.com",
+      "gender": "Male",
+      "address": "0086 Monterey Alley",
+      "phone": "(833) 5019701",
+      "birthday": "25/12/1995",
+      "photo": "http://dummyimage.com/186x184.png/cc0000/ffffff",
+      "password": "123"
+    }
+  ],
   "Employees": [
     {
       "id": 1,
@@ -230,9 +296,9 @@
   ],
   "Categories": [
     {
-      "id": 1,
       "CategoryName": "Áo Hoodie",
-      "Description": "Áo thu đông"
+      "Description": "Áo thu đông",
+      "id": 1
     },
     {
       "id": 2,
