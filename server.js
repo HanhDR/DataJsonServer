@@ -10,7 +10,6 @@ const router = jsonServer.router("./db.json");
 
 const data = JSON.parse(fs.readFileSync("./db.json", "UTF-8"));
 const userdb = data.users;
-log(userdb);
 
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
@@ -40,12 +39,42 @@ function isAuthenticated({ email, password }) {
   return false;
 }
 
+function findUserByEmail(email) {
+  const indexUser = userdb.findIndex((user) => user.email === email);
+
+  if (indexUser !== -1) return userdb[indexUser];
+  return false;
+}
+
 server.post("/auth/login", (req, res) => {
   const { email, password } = req.body;
   const userAccess = isAuthenticated({ email, password });
   if (userAccess === false) {
     const status = 401;
     const message = "Incorrect email or password";
+    res.status(status).json({ status, message });
+    return;
+  }
+  const { id, fullname, address, phone, photo, gender, birthday } = userAccess;
+  const access_token = createToken({
+    email,
+    id,
+    fullname,
+    address,
+    phone,
+    photo,
+    gender,
+    birthday,
+  });
+  res.status(200).json({ access_token });
+});
+
+server.post("/auth/refreshtoken", (req, res) => {
+  const { email } = req.body;
+  const userAccess = findUserByEmail(email);
+  if (userAccess === false) {
+    const status = 401;
+    const message = "Incorrect email";
     res.status(status).json({ status, message });
     return;
   }
