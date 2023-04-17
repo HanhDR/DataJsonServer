@@ -867,16 +867,5 @@
       "FinishedTime": "12/1/2022",
       "Status": 1
     }
-  ],
-  "OrderStatus": [
-    { "Status": -2, "Description": "Rejected" },
-    {
-      "Status": -1,
-      "Description": "Cancel"
-    },
-    { "Status": 1, "Description": "Init" },
-    { "Status": 2, "Description": "Accepted" },
-    { "Status": 3, "Description": "Shipping" },
-    { "Status": 4, "Description": "Finished" }
   ]
 }
