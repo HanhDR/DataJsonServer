@@ -74,7 +74,7 @@
       "address": "363 Service Alley",
       "phone": "(786) 1554473",
       "birthday": "27/03/2001",
-      "anh": "http://dummyimage.com/176x196.png/dddddd/000000",
+      "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
       "id": 2
     },
     {
@@ -85,7 +85,7 @@
       "address": "6187 Burrows Center",
       "phone": "(715) 3116971",
       "birthday": "25/04/1996",
-      "Photo": "http://dummyimage.com/176x196.png/dddddd/000000",
+      "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
       "password": "123"
     },
     {
@@ -95,7 +95,7 @@
       "address": "1 Esker Point",
       "phone": "(113) 7442515",
       "birthday": "19/10/2002",
-      "anh": "http://dummyimage.com/176x196.png/dddddd/000000",
+      "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
       "id": 4
     },
     {
@@ -106,7 +106,7 @@
       "address": "2655 Roxbury Drive",
       "phone": "(311) 2451823",
       "birthday": "14/11/1991",
-      "Photo": "http://dummyimage.com/181x166.png/dddddd/000000",
+      "photo": "http://dummyimage.com/181x166.png/dddddd/000000",
       "password": "123"
     },
     {
@@ -116,7 +116,7 @@
       "address": "0086 Monterey Alley",
       "phone": "(833) 5019701",
       "birthday": "25/12/1995",
-      "anh": "http://dummyimage.com/186x184.png/cc0000/ffffff",
+      "photo": "http://dummyimage.com/186x184.png/cc0000/ffffff",
       "id": 6
     },
     {
@@ -126,7 +126,7 @@
       "address": "0086 Monterey Alley",
       "phone": "8335019701",
       "birthday": "19/10/2002",
-      "anh": "http://dummyimage.com/176x196.png/dddddd/000000",
+      "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
       "id": 7
     }
   ],
@@ -857,6 +857,30 @@
   "Orders": [
     {
       "id": 1,
+      "OrderList": [
+        { "ProductId": 1, "Quantity": 1, "SalePrince": 120000 },
+        { "ProductId": 2, "Quantity": 2, "SalePrince": 11000 }
+      ],
+      "EmployeeID": 1,
+      "CustomerID": 1,
+      "OrderTime": "12/1/2022",
+      "FinishedTime": "12/1/2022",
+      "Status": 1
+    },
+    {
+      "id": 2,
+      "OrderList": [
+        { "ProductId": 1, "Quantity": 1, "SalePrince": 120000 },
+        { "ProductId": 2, "Quantity": 2, "SalePrince": 11000 }
+      ],
+      "EmployeeID": 3,
+      "CustomerID": 1,
+      "OrderTime": "12/1/2022",
+      "FinishedTime": "12/1/2022",
+      "Status": 1
+    },
+    {
+      "id": 3,
       "OrderList": [
         { "ProductId": 1, "Quantity": 1, "SalePrince": 120000 },
         { "ProductId": 2, "Quantity": 2, "SalePrince": 11000 }
