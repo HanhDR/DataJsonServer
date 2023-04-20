@@ -1,7 +1,7 @@
 {
-  "users": [
+  "Users": [
     {
-      "fullname": "Duc Hanu",
+      "fullName": "Duc Hanu",
       "email": "admin@gmail.com",
       "address": "363 Service Alley",
       "birthday": "27/03/2001",
@@ -12,73 +12,63 @@
     },
     {
       "id": 2,
-      "fullname": "Alvie Copozio",
+      "fullName": "Alvie Copozio",
       "email": "acopozio0@vk.com",
       "gender": "Male",
       "address": "363 Service Alley",
       "phone": "(786) 1554473",
       "birthday": "27/03/2001",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "123"
     },
     {
       "id": 3,
-      "fullname": "Ramsey Rosberg",
+      "fullName": "Ramsey Rosberg",
       "email": "rrosberg1@ibm.com",
       "gender": "Male",
       "address": "6187 Burrows Center",
       "phone": "(715) 3116971",
       "birthday": "25/04/1996",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "123"
     },
     {
       "id": 4,
-      "fullname": "Natala Eke",
+      "fullName": "Natala Eke",
       "email": "neke2@china.com.cn",
       "gender": "Female",
       "address": "1 Esker Point",
       "phone": "(113) 7442515",
       "birthday": "19/10/2002",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "123"
     },
     {
       "id": 5,
-      "fullname": "Christabel Lindup",
+      "fullName": "Christabel Lindup",
       "email": "clindup3@taobao.com",
       "gender": "Female",
       "address": "2655 Roxbury Drive",
       "phone": "(311) 2451823",
       "birthday": "14/11/1991",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "123"
     },
     {
       "id": 6,
-      "fullname": "Trueman Kollaschek",
+      "fullName": "Trueman Kollaschek",
       "email": "tkollaschek4@technorati.com",
       "gender": "Male",
       "address": "0086 Monterey Alley",
       "phone": "(833) 5019701",
       "birthday": "25/12/1995",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "123"
     }
   ],
   "Employees": [
     {
-      "fullname": "Alvie Copozio ",
+      "fullName": "Alvie Copozio ",
       "email": "acopozio0@vk.com",
       "gender": "Male",
       "address": "363 Service Alley",
@@ -89,7 +79,7 @@
     },
     {
       "id": 3,
-      "fullname": "Ramsey Rosberg",
+      "fullName": "Ramsey Rosberg",
       "email": "rrosberg1@ibm.com",
       "gender": "Male",
       "address": "6187 Burrows Center",
@@ -99,7 +89,7 @@
       "password": "123"
     },
     {
-      "fullname": "Natala Eke",
+      "fullName": "Natala Eke",
       "email": "neke2@china.com.cn",
       "gender": "Female",
       "address": "1 Esker Point",
@@ -110,7 +100,7 @@
     },
     {
       "id": 5,
-      "fullname": "Christabel Lindup",
+      "fullName": "Christabel Lindup",
       "email": "clindup3@taobao.com",
       "gender": "Female",
       "address": "2655 Roxbury Drive",
@@ -120,7 +110,7 @@
       "password": "123"
     },
     {
-      "fullname": "Trueman Kollaschek",
+      "fullName": "Trueman Kollaschek",
       "email": "tkollaschek4@technorati.com",
       "gender": "Male",
       "address": "0086 Monterey Alley",
@@ -130,7 +120,7 @@
       "id": 6
     },
     {
-      "fullname": "Trueman Kollaschek",
+      "fullName": "Trueman Kollaschek",
       "email": "tkollaschek4@technorati.com",
       "gender": "Nam",
       "address": "0086 Monterey Alley",
@@ -143,868 +133,754 @@
   "Customers": [
     {
       "id": 1,
-      "fullname": "Reta Karolczyk",
+      "fullName": "Reta Karolczyk",
       "email": "rkarolczyk0@umn.edu",
       "gender": "Female",
       "address": "812 Lindbergh Circle",
       "phone": "(952) 3640498",
       "birthday": "04/08/2002",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "123"
     },
     {
       "id": 1,
-      "fullname": "Gertruda Plevey",
+      "fullName": "Gertruda Plevey",
       "email": "gplevey1@springer.com",
       "gender": "Female",
       "address": "6066 Northwestern Trail",
       "phone": "(583) 2363250",
       "birthday": "29/05/1997",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "v8pPVL7HB1NK"
     },
     {
       "id": 2,
-      "fullname": "Pate Bodle",
+      "fullName": "Pate Bodle",
       "email": "pbodle2@imdb.com",
       "gender": "Male",
       "address": "02 Warner Court",
       "phone": "(898) 5216196",
       "birthday": "22/06/1994",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "9d2OUHJK"
     },
     {
       "id": 3,
-      "fullname": "Javier Honnicott",
+      "fullName": "Javier Honnicott",
       "email": "jhonnicott3@booking.com",
       "gender": "Male",
       "address": "3 Eggendart Plaza",
       "phone": "(361) 7245297",
       "birthday": "22/12/1997",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "xOHD2SALUG6O"
     },
     {
       "id": 4,
-      "fullname": "Athene Detloff",
+      "fullName": "Athene Detloff",
       "email": "adetloff4@lulu.com",
       "gender": "Female",
       "address": "66798 Ilene Circle",
       "phone": "(901) 6764729",
       "birthday": "14/02/1994",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "lYEkJrui9N"
     },
     {
       "id": 5,
-      "fullname": "Jarib Pendlebery",
+      "fullName": "Jarib Pendlebery",
       "email": "jpendlebery5@indiegogo.com",
       "gender": "Male",
       "address": "848 Amoth Circle",
       "phone": "(487) 4854813",
       "birthday": "20/01/2002",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "92tkKFb"
     },
     {
       "id": 6,
-      "fullname": "Dulci Longforth",
+      "fullName": "Dulci Longforth",
       "email": "dlongforth6@technorati.com",
       "gender": "Female",
       "address": "395 Delladonna Circle",
       "phone": "(557) 3298700",
       "birthday": "31/07/2001",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "9iVhlpINZV0U"
     },
     {
       "id": 7,
-      "fullname": "Myriam Annand",
+      "fullName": "Myriam Annand",
       "email": "mannand7@latimes.com",
       "gender": "Female",
       "address": "425 Prairie Rose Plaza",
       "phone": "(203) 6106759",
       "birthday": "29/10/1997",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "NQdYfLRNVR1I"
     },
     {
       "id": 8,
-      "fullname": "Zackariah Julian",
+      "fullName": "Zackariah Julian",
       "email": "zjulian8@lulu.com",
       "gender": "Male",
       "address": "004 Sachtjen Alley",
       "phone": "(421) 6974899",
       "birthday": "19/08/1992",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "w6xjGRlfAeV"
     },
     {
       "id": 9,
-      "fullname": "Mariele Maccaig",
+      "fullName": "Mariele Maccaig",
       "email": "mmaccaig9@nifty.com",
       "gender": "Female",
       "address": "538 Fuller Street",
       "phone": "(557) 5978383",
       "birthday": "10/03/1993",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "Orsyb1NFreq"
     },
     {
       "id": 10,
-      "fullname": "Darcey Harborow",
+      "fullName": "Darcey Harborow",
       "email": "dharborowa@ca.gov",
       "gender": "Female",
       "address": "3415 Delaware Circle",
       "phone": "(682) 4541234",
       "birthday": "23/05/2004",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "T4Pa1Qe56eU8"
     },
     {
       "id": 11,
-      "fullname": "Bourke Currington",
+      "fullName": "Bourke Currington",
       "email": "bcurringtonb@histats.com",
       "gender": "Male",
       "address": "19 Elmside Avenue",
       "phone": "(136) 8614149",
       "birthday": "04/01/2001",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "rzimYcjNun"
     },
     {
       "id": 12,
-      "fullname": "Cassi Duffill",
+      "fullName": "Cassi Duffill",
       "email": "cduffillc@cnn.com",
       "gender": "Female",
       "address": "29832 Artisan Hill",
       "phone": "(318) 3962649",
       "birthday": "11/04/2004",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "MJw9gt"
     },
     {
       "id": 13,
-      "fullname": "Carmine Spaughton",
+      "fullName": "Carmine Spaughton",
       "email": "cspaughtond@virginia.edu",
       "gender": "Male",
       "address": "003 3rd Pass",
       "phone": "(611) 1119008",
       "birthday": "12/03/1997",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "vM5VFo0LEU"
     },
     {
       "id": 14,
-      "fullname": "Tamara Callum",
+      "fullName": "Tamara Callum",
       "email": "tcallume@salon.com",
       "gender": "Female",
       "address": "8 Marquette Alley",
       "phone": "(536) 3776783",
       "birthday": "02/01/1996",
-      "Photo": [
-        "htt"
-      ],
+      "photo": ["htt"],
       "password": "ZPcM91Ru"
     }
   ],
   "Categories": [
     {
-      "CategoryName": "Áo Hoodie",
-      "Description": "Áo thu đông",
+      "categoryName": "Áo Hoodie",
+      "description": "Áo thu đông",
       "id": 1
     },
     {
       "id": 2,
-      "CategoryName": "Áo Vest và Balzer",
-      "Description": "Áo quý ông"
+      "categoryName": "Áo Vest và Balzer",
+      "description": "Áo quý ông"
     },
     {
       "id": 3,
-      "CategoryName": "Áo Khoác",
-      "Description": "Áo thu đông"
+      "categoryName": "Áo Khoác",
+      "description": "Áo thu đông"
     },
     {
       "id": 4,
-      "CategoryName": "Áo Ba lỗ",
-      "Description": "Áo mùa hè"
+      "categoryName": "Áo Ba lỗ",
+      "description": "Áo mùa hè"
     },
     {
       "id": 5,
-      "CategoryName": "Quần Jean",
-      "Description": "Mang vào sẽ đẹp trai hơn"
+      "categoryName": "Quần Jean",
+      "description": "Mang vào sẽ đẹp trai hơn"
     },
     {
       "id": 6,
-      "CategoryName": "Quần dài/Quần âu",
-      "Description": "Sự quý phái đang ở đây"
+      "categoryName": "Quần dài/Quần âu",
+      "description": "Sự quý phái đang ở đây"
     },
     {
       "id": 7,
-      "CategoryName": "Quần Short",
-      "Description": "Quần làm tăng độ đẹp trai của bạn"
+      "categoryName": "Quần Short",
+      "description": "Quần làm tăng độ đẹp trai của bạn"
     }
   ],
   "Suppliers": [
     {
-      "SupplierName": "Cty THHH Duc Hoa Hồng 2",
-      "ContactName": "CTy TNHH Một Thành Viên HanhDR",
-      "Address": "939 Riverside Road",
-      "Phone": "05464094692",
-      "Country": "VietNam",
-      "City": "Qincheng",
-      "id": 1
-    },
-    {
       "id": 2,
-      "SupplierName": "Cty THHH Quyền Anh",
-      "ContactName": "CTy TNHH Một Thành Viên DuCJDK",
-      "Address": "08997 Schiller Hill",
-      "Phone": "668-847-7905",
-      "Country": "VietNam",
-      "City": "Qiaozi"
+      "supplierName": "Cty THHH Quyền Anh",
+      "contactName": "CTy TNHH Một Thành Viên DuCJDK",
+      "address": "08997 Schiller Hill",
+      "phone": "668-847-7905",
+      "country": "VietNam",
+      "city": "Qiaozi"
     },
     {
-      "SupplierName": "Cty THHH Thiện Đặng",
-      "ContactName": "CTy TNHH Một Thành Viên Thien101",
-      "Address": "3 Merchant Circle",
-      "Phone": "625-481-8722",
-      "Country": "VietNam",
-      "City": "Khallat Şāliḩ",
+      "supplierName": "Cty THHH Thiện Đặng",
+      "contactName": "CTy TNHH Một Thành Viên Thien101",
+      "address": "3 Merchant Circle",
+      "phone": "625-481-8722",
+      "country": "VietNam",
+      "city": "Khallat Şāliḩ",
       "id": 3
     },
     {
       "id": 4,
-      "SupplierName": "Cty THHH Trung Phan",
-      "ContactName": "CTy TNHH Một Thành Viên PCT",
-      "Address": "25903 Eggendart Lane",
-      "Phone": "734-113-4904",
-      "Country": "VietNam",
-      "City": "Margasari"
+      "supplierName": "Cty THHH Trung Phan",
+      "contactName": "CTy TNHH Một Thành Viên PCT",
+      "address": "25903 Eggendart Lane",
+      "phone": "734-113-4904",
+      "country": "VietNam",
+      "city": "Margasari"
     },
     {
       "id": 5,
-      "SupplierName": "Cty THHH Đức Trọng",
-      "ContactName": "CTy TNHH Một Thành Viên DuCJDK",
-      "Address": "38348 Esch Court",
-      "Phone": "926-203-1125",
-      "Country": "VietNam",
-      "City": "Cancela"
+      "supplierName": "Cty THHH Đức Trọng",
+      "contactName": "CTy TNHH Một Thành Viên DuCJDK",
+      "address": "38348 Esch Court",
+      "phone": "926-203-1125",
+      "country": "VietNam",
+      "city": "Cancela"
     },
     {
-      "SupplierName": "Hạnh đẹp trai",
-      "ContactName": "CTy TNHH Một Thành Viên DuCJDK",
-      "Address": "38348 Esch Court",
-      "Phone": "5464094692",
-      "Country": "VietNam",
-      "City": "Cancela",
+      "supplierName": "Hạnh đẹp trai",
+      "contactName": "CTy TNHH Một Thành Viên DuCJDK",
+      "address": "38348 Esch Court",
+      "phone": "5464094692",
+      "country": "VietNam",
+      "city": "Cancela",
       "id": 6
     }
   ],
   "Countries": [
     {
       "id": 1,
-      "CountryName": "Mexico"
+      "countryName": "Mexico"
     },
     {
       "id": 2,
-      "CountryName": "Kazakhstan"
+      "countryName": "Kazakhstan"
     },
     {
       "id": 3,
-      "CountryName": "Portugal"
+      "countryName": "Portugal"
     },
     {
       "id": 4,
-      "CountryName": "Japan"
+      "countryName": "Japan"
     },
     {
       "id": 5,
-      "CountryName": "Indonesia"
+      "countryName": "Indonesia"
     },
     {
       "id": 6,
-      "CountryName": "Mozambique"
+      "countryName": "Mozambique"
     },
     {
       "id": 7,
-      "CountryName": "United States"
+      "countryName": "United States"
     },
     {
       "id": 8,
-      "CountryName": "Slovenia"
+      "countryName": "Slovenia"
     },
     {
       "id": 9,
-      "CountryName": "Czech Republic"
+      "countryName": "Czech Republic"
     },
     {
       "id": 10,
-      "CountryName": "Brunei"
+      "countryName": "Brunei"
     },
     {
       "id": 11,
-      "CountryName": "Switzerland"
+      "countryName": "Switzerland"
     },
     {
       "id": 12,
-      "CountryName": "Portugal"
+      "countryName": "Portugal"
     },
     {
       "id": 13,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 14,
-      "CountryName": "Russia"
+      "countryName": "Russia"
     },
     {
       "id": 15,
-      "CountryName": "Mexico"
+      "countryName": "Mexico"
     },
     {
       "id": 16,
-      "CountryName": "Japan"
+      "countryName": "Japan"
     },
     {
       "id": 17,
-      "CountryName": "Iran"
+      "countryName": "Iran"
     },
     {
       "id": 18,
-      "CountryName": "Indonesia"
+      "countryName": "Indonesia"
     },
     {
       "id": 19,
-      "CountryName": "Uzbekistan"
+      "countryName": "Uzbekistan"
     },
     {
       "id": 20,
-      "CountryName": "Russia"
+      "countryName": "Russia"
     },
     {
       "id": 21,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 22,
-      "CountryName": "Philippines"
+      "countryName": "Philippines"
     },
     {
       "id": 23,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 24,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 25,
-      "CountryName": "Portugal"
+      "countryName": "Portugal"
     },
     {
       "id": 26,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 27,
-      "CountryName": "Tanzania"
+      "countryName": "Tanzania"
     },
     {
       "id": 28,
-      "CountryName": "Aland Islands"
+      "countryName": "Aland Islands"
     },
     {
       "id": 29,
-      "CountryName": "Ukraine"
+      "countryName": "Ukraine"
     },
     {
       "id": 30,
-      "CountryName": "Madagascar"
+      "countryName": "Madagascar"
     },
     {
       "id": 31,
-      "CountryName": "Brazil"
+      "countryName": "Brazil"
     },
     {
       "id": 32,
-      "CountryName": "Indonesia"
+      "countryName": "Indonesia"
     },
     {
       "id": 33,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 34,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 35,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 36,
-      "CountryName": "Portugal"
+      "countryName": "Portugal"
     },
     {
       "id": 37,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 38,
-      "CountryName": "Indonesia"
+      "countryName": "Indonesia"
     },
     {
       "id": 39,
-      "CountryName": "Nigeria"
+      "countryName": "Nigeria"
     },
     {
       "id": 40,
-      "CountryName": "Portugal"
+      "countryName": "Portugal"
     },
     {
       "id": 41,
-      "CountryName": "Ecuador"
+      "countryName": "Ecuador"
     },
     {
       "id": 42,
-      "CountryName": "Czech Republic"
+      "countryName": "Czech Republic"
     },
     {
       "id": 43,
-      "CountryName": "Greece"
+      "countryName": "Greece"
     },
     {
       "id": 44,
-      "CountryName": "Greece"
+      "countryName": "Greece"
     },
     {
       "id": 45,
-      "CountryName": "Brazil"
+      "countryName": "Brazil"
     },
     {
       "id": 46,
-      "CountryName": "Russia"
+      "countryName": "Russia"
     },
     {
       "id": 47,
-      "CountryName": "Portugal"
+      "countryName": "Portugal"
     },
     {
       "id": 48,
-      "CountryName": "Chile"
+      "countryName": "Chile"
     },
     {
       "id": 49,
-      "CountryName": "Indonesia"
+      "countryName": "Indonesia"
     },
     {
       "id": 50,
-      "CountryName": "Yemen"
+      "countryName": "Yemen"
     },
     {
       "id": 51,
-      "CountryName": "Syria"
+      "countryName": "Syria"
     },
     {
       "id": 52,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 53,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 54,
-      "CountryName": "Ukraine"
+      "countryName": "Ukraine"
     },
     {
       "id": 55,
-      "CountryName": "South Africa"
+      "countryName": "South Africa"
     },
     {
       "id": 56,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 57,
-      "CountryName": "Poland"
+      "countryName": "Poland"
     },
     {
       "id": 58,
-      "CountryName": "Portugal"
+      "countryName": "Portugal"
     },
     {
       "id": 59,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 60,
-      "CountryName": "Czech Republic"
+      "countryName": "Czech Republic"
     },
     {
       "id": 61,
-      "CountryName": "France"
+      "countryName": "France"
     },
     {
       "id": 62,
-      "CountryName": "Thailand"
+      "countryName": "Thailand"
     },
     {
       "id": 63,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 64,
-      "CountryName": "Albania"
+      "countryName": "Albania"
     },
     {
       "id": 65,
-      "CountryName": "Indonesia"
+      "countryName": "Indonesia"
     },
     {
       "id": 66,
-      "CountryName": "Russia"
+      "countryName": "Russia"
     },
     {
       "id": 67,
-      "CountryName": "Republic of the Congo"
+      "countryName": "Republic of the Congo"
     },
     {
       "id": 68,
-      "CountryName": "Norway"
+      "countryName": "Norway"
     },
     {
       "id": 69,
-      "CountryName": "Estonia"
+      "countryName": "Estonia"
     },
     {
       "id": 70,
-      "CountryName": "Costa Rica"
+      "countryName": "Costa Rica"
     },
     {
       "id": 71,
-      "CountryName": "Sweden"
+      "countryName": "Sweden"
     },
     {
       "id": 72,
-      "CountryName": "Syria"
+      "countryName": "Syria"
     },
     {
       "id": 73,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 74,
-      "CountryName": "Indonesia"
+      "countryName": "Indonesia"
     },
     {
       "id": 75,
-      "CountryName": "Colombia"
+      "countryName": "Colombia"
     },
     {
       "id": 76,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 77,
-      "CountryName": "China"
+      "countryName": "China"
     },
     {
       "id": 78,
-      "CountryName": "United States"
+      "countryName": "United States"
     },
     {
       "id": 79,
-      "CountryName": "Ireland"
+      "countryName": "Ireland"
     },
     {
       "id": 80,
-      "CountryName": "Indonesia"
+      "countryName": "Indonesia"
     },
     {
       "id": 81,
-      "CountryName": "Ukraine"
+      "countryName": "Ukraine"
     },
     {
       "id": 82,
-      "CountryName": "Spain"
+      "countryName": "Spain"
     },
     {
       "id": 83,
-      "CountryName": "Spain"
+      "countryName": "Spain"
     },
     {
       "id": 84,
-      "CountryName": "VietNam"
+      "countryName": "VietNam"
     },
     {
       "id": 85,
-      "CountryName": "Niger"
+      "countryName": "Niger"
     },
     {
       "id": 86,
-      "CountryName": "Kazakhstan"
+      "countryName": "Kazakhstan"
     },
     {
       "id": 87,
-      "CountryName": "Thailand"
+      "countryName": "Thailand"
     },
     {
       "id": 88,
-      "CountryName": "Russia"
+      "countryName": "Russia"
     },
     {
       "id": 89,
-      "CountryName": "Indonesia"
+      "countryName": "Indonesia"
     },
     {
       "id": 90,
-      "CountryName": "France"
+      "countryName": "France"
     },
     {
       "id": 91,
-      "CountryName": "Kenya"
+      "countryName": "Kenya"
     },
     {
       "id": 92,
-      "CountryName": "Japan"
+      "countryName": "Japan"
     },
     {
       "id": 93,
-      "CountryName": "Hungary"
+      "countryName": "Hungary"
     },
     {
       "id": 94,
-      "CountryName": "Brazil"
+      "countryName": "Brazil"
     },
     {
       "id": 95,
-      "CountryName": "Panama"
+      "countryName": "Panama"
     },
     {
       "id": 96,
-      "CountryName": "Syria"
+      "countryName": "Syria"
     },
     {
       "id": 97,
-      "CountryName": "Malaysia"
+      "countryName": "Malaysia"
     },
     {
       "id": 98,
-      "CountryName": "United States"
+      "countryName": "United States"
     },
     {
       "id": 99,
-      "CountryName": "Brazil"
+      "countryName": "Brazil"
     },
     {
       "id": 100,
-      "CountryName": "Philippines"
+      "countryName": "Philippines"
     }
   ],
   "Products": [
     {
-      "id": 1,
-      "ProductName": "Áo khoác lông cừu",
-      "Price": 2000,
-      "CategoryId": 5,
-      "SupplierId": 1,
-      "Unit": "Chai",
-      "Photo": [
-        ""
-      ],
-      "Size": [
-        "M",
-        "L",
-        "XL"
-      ],
-      "Color": [
-        "Đỏ",
-        "Đen",
-        "Trắng"
-      ],
-      "Quantity": 12
-    },
-    {
       "id": 2,
-      "ProductName": "Ao vest basic",
-      "Price": 3000,
+      "productName": "Ao vest basic",
+      "price": 3000,
       "CategoryId": 2,
       "SupplierId": 3,
-      "Unit": "Dollar",
-      "Photo": [
-        "htt"
-      ],
-      "Size": [
-        "M",
-        "L",
-        "XL"
-      ],
-      "Color": [
-        "Đỏ",
-        "Đen",
-        "Trắng"
-      ],
-      "Quantity": 11
-    },
-    {
-      "id": 3,
-      "ProductName": "Ao khoác chống é",
-      "Price": 5000,
-      "CategoryId": 1,
-      "SupplierId": 1,
-      "Unit": "million",
-      "Photo": [
-        "https://www.invert.vn/media/uploads/uploads/2022/12/03191809-2.jpeg",
-        ""
-      ],
-      "Size": [
-        "M",
-        "L",
-        "XL"
-      ],
-      "Color": [
-        "Đỏ",
-        "Đen",
-        "Trắng"
-      ],
-      "Quantity": 12
+      "unit": "Dollar",
+      "photo": ["htt"],
+      "size": ["M", "L", "XL"],
+      "color": ["Đỏ", "Đen", "Trắng"],
+      "quantity": 11
     },
     {
       "id": 4,
-      "ProductName": "Ao thun thu đông",
-      "Price": 6000,
+      "productName": "Ao thun thu đông",
+      "price": 6000,
       "CategoryId": 4,
       "SupplierId": 5,
-      "Unit": "million",
-      "Photo": [
-        ""
-      ],
-      "Size": [
-        "M",
-        "L",
-        "XL"
-      ],
-      "Color": [
-        "Đỏ",
-        "Đen",
-        "Trắng"
-      ],
-      "Quantity": 13
+      "unit": "million",
+      "photo": [""],
+      "size": ["M", "L", "XL"],
+      "color": ["Đỏ", "Đen", "Trắng"],
+      "quantity": 13
     },
     {
       "id": 5,
-      "ProductName": "Quần Jean ống rộng",
-      "Price": 5000,
+      "productName": "Quần Jean ống rộng",
+      "price": 5000,
       "CategoryId": 6,
       "SupplierId": 3,
-      "Unit": "million",
-      "Photo": [
-        ""
-      ],
-      "Size": [
-        "M",
-        "L",
-        "XL"
-      ],
-      "Color": [
-        "Đỏ",
-        "Đen",
-        "Trắng"
-      ],
-      "Quantity": 12
+      "unit": "million",
+      "photo": [""],
+      "size": ["M", "L", "XL"],
+      "color": ["Đỏ", "Đen", "Trắng"],
+      "quantity": 12
     }
   ],
   "Orders": [
     {
       "id": 1,
-      "OrderList": [
+      "orderList": [
         {
           "ProductId": 1,
-          "Quantity": 1,
-          "SalePrince": 120000
+          "quantity": 1,
+          "salePrice": 120000
         },
         {
           "ProductId": 2,
-          "Quantity": 2,
-          "SalePrince": 11000
+          "quantity": 2,
+          "salePrice": 11000
         }
       ],
       "EmployeeID": 1,
       "CustomerID": 1,
-      "OrderTime": "12/1/2022",
-      "FinishedTime": "12/1/2022",
-      "Status": 1
+      "orderTime": "12/1/2022",
+      "finishedTime": "12/1/2022",
+      "status": 1
     },
     {
       "id": 2,
-      "OrderList": [
+      "orderList": [
         {
           "ProductId": 1,
-          "Quantity": 1,
-          "SalePrince": 120000
+          "quantity": 1,
+          "salePrice": 120000
         },
         {
           "ProductId": 2,
-          "Quantity": 2,
-          "SalePrince": 11000
+          "quantity": 2,
+          "salePrice": 11000
         }
       ],
-      "EmployeeID": 3,
-      "CustomerID": 1,
-      "OrderTime": "12/1/2022",
-      "FinishedTime": "12/1/2022",
-      "Status": 1
+      "EmployeeId": 3,
+      "CustomerId": 1,
+      "orderTime": "12/1/2022",
+      "finishedTime": "12/1/2022",
+      "status": 1
     },
     {
       "id": 3,
-      "OrderList": [
+      "orderList": [
         {
           "ProductId": 1,
-          "Quantity": 1,
-          "SalePrince": 120000
+          "quantity": 1,
+          "salePrice": 120000
         },
         {
           "ProductId": 2,
-          "Quantity": 2,
-          "SalePrince": 11000
+          "quantity": 2,
+          "salePrice": 11000
         }
       ],
-      "EmployeeID": 1,
-      "CustomerID": 1,
-      "OrderTime": "12/1/2022",
-      "FinishedTime": "12/1/2022",
-      "Status": 1
+      "EmployeeId": 1,
+      "CustomerId": 1,
+      "orderTime": "12/1/2022",
+      "finishedTime": "12/1/2022",
+      "status": 1
     }
   ]
 }
