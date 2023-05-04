@@ -779,26 +779,6 @@
   "Orders": [
     {
       "id": 1,
-      "orderDetail": [
-        {
-          "id": 1,
-          "ProductId": 2,
-          "quantity": 1,
-          "salePrice": 120000,
-          "OrderId": 1,
-          "productName": "Ao vest basic",
-          "price": 3000
-        },
-        {
-          "id": 2,
-          "ProductId": 2,
-          "quantity": 2,
-          "salePrice": 11000,
-          "OrderId": 1,
-          "productName": "Ao vest basic",
-          "price": 3000
-        }
-      ],
       "EmployeeId": 2,
       "employeeName": "Alvie",
       "CustomerId": 1,
@@ -811,26 +791,6 @@
     },
     {
       "id": 2,
-      "OrderDetail": [
-        {
-          "id": 1,
-          "ProductId": 2,
-          "quantity": 1,
-          "salePrice": 120000,
-          "OrderId": 1,
-          "productName": "Ao vest basic",
-          "price": 3000
-        },
-        {
-          "id": 2,
-          "ProductId": 2,
-          "quantity": 2,
-          "salePrice": 11000,
-          "OrderId": 1,
-          "productName": "Ao vest basic",
-          "price": 3000
-        }
-      ],
       "EmployeeId": 3,
       "employeeName": "Blaska",
       "customerName": "Athene Detloff",
@@ -840,6 +800,35 @@
       "shippingTime": "12/1/2022",
       "finishedTime": "12/1/2022",
       "status": 4
+    }
+  ],
+  "OrderDetails": [
+    {
+      "id": 1,
+      "ProductId": 2,
+      "quantity": 1,
+      "salePrice": 120000,
+      "OrderId": 1,
+      "productName": "Ao vest basic",
+      "price": 3000
+    },
+    {
+      "id": 2,
+      "ProductId": 2,
+      "quantity": 2,
+      "salePrice": 11000,
+      "OrderId": 1,
+      "productName": "Ao vest basic",
+      "price": 3000
+    },
+    {
+      "id": 3,
+      "ProductId": 2,
+      "quantity": 2,
+      "salePrice": 11000,
+      "OrderId": 2,
+      "productName": "Ao vest basic",
+      "price": 3000
     }
   ]
 }
