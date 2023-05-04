@@ -9,7 +9,7 @@ const server = jsonServer.create();
 const router = jsonServer.router("./db.json");
 
 const data = JSON.parse(fs.readFileSync("./db.json", "UTF-8"));
-const userdb = data.users;
+const userdb = data.Users;
 
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());

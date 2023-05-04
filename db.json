@@ -66,6 +66,7 @@
       "password": "123"
     }
   ],
+
   "Employees": [
     {
       "fullName": "Alvie Copozio ",
@@ -133,168 +134,110 @@
   "Customers": [
     {
       "id": 1,
-      "fullName": "Reta Karolczyk",
+      "customerName": "Reta Karolczyk",
       "email": "rkarolczyk0@umn.edu",
-      "gender": "Female",
+      "country": "VietNam",
       "address": "812 Lindbergh Circle",
       "phone": "(952) 3640498",
       "birthday": "04/08/2002",
-      "photo": ["htt"],
       "password": "123"
     },
     {
       "id": 1,
-      "fullName": "Gertruda Plevey",
+      "customerName": "Gertruda Plevey",
       "email": "gplevey1@springer.com",
-      "gender": "Female",
+      "country": "VietNam",
       "address": "6066 Northwestern Trail",
       "phone": "(583) 2363250",
       "birthday": "29/05/1997",
-      "photo": ["htt"],
+
       "password": "v8pPVL7HB1NK"
     },
     {
       "id": 2,
-      "fullName": "Pate Bodle",
+      "customerName": "Pate Bodle",
       "email": "pbodle2@imdb.com",
-      "gender": "Male",
+      "country": "China",
       "address": "02 Warner Court",
       "phone": "(898) 5216196",
       "birthday": "22/06/1994",
-      "photo": ["htt"],
+
       "password": "9d2OUHJK"
     },
     {
       "id": 3,
-      "fullName": "Javier Honnicott",
+      "customerName": "Javier Honnicott",
       "email": "jhonnicott3@booking.com",
-      "gender": "Male",
+      "country": "China",
       "address": "3 Eggendart Plaza",
       "phone": "(361) 7245297",
       "birthday": "22/12/1997",
-      "photo": ["htt"],
+
       "password": "xOHD2SALUG6O"
     },
     {
       "id": 4,
-      "fullName": "Athene Detloff",
+      "customerName": "Athene Detloff",
       "email": "adetloff4@lulu.com",
-      "gender": "Female",
+      "country": "USA",
       "address": "66798 Ilene Circle",
       "phone": "(901) 6764729",
       "birthday": "14/02/1994",
-      "photo": ["htt"],
+
       "password": "lYEkJrui9N"
     },
     {
       "id": 5,
-      "fullName": "Jarib Pendlebery",
+      "customerName": "Jarib Pendlebery",
       "email": "jpendlebery5@indiegogo.com",
-      "gender": "Male",
+      "country": "Philippines",
       "address": "848 Amoth Circle",
       "phone": "(487) 4854813",
       "birthday": "20/01/2002",
-      "photo": ["htt"],
+
       "password": "92tkKFb"
     },
     {
       "id": 6,
-      "fullName": "Dulci Longforth",
+      "customerName": "Dulci Longforth",
       "email": "dlongforth6@technorati.com",
-      "gender": "Female",
+      "country": "Boston",
       "address": "395 Delladonna Circle",
       "phone": "(557) 3298700",
       "birthday": "31/07/2001",
-      "photo": ["htt"],
+
       "password": "9iVhlpINZV0U"
     },
     {
       "id": 7,
-      "fullName": "Myriam Annand",
+      "customerName": "Myriam Annand",
       "email": "mannand7@latimes.com",
-      "gender": "Female",
+      "country": "Chile",
       "address": "425 Prairie Rose Plaza",
       "phone": "(203) 6106759",
       "birthday": "29/10/1997",
-      "photo": ["htt"],
+
       "password": "NQdYfLRNVR1I"
     },
     {
       "id": 8,
-      "fullName": "Zackariah Julian",
+      "customerName": "Zackariah Julian",
       "email": "zjulian8@lulu.com",
-      "gender": "Male",
+      "country": "UK",
       "address": "004 Sachtjen Alley",
       "phone": "(421) 6974899",
       "birthday": "19/08/1992",
-      "photo": ["htt"],
       "password": "w6xjGRlfAeV"
     },
     {
       "id": 9,
-      "fullName": "Mariele Maccaig",
+      "customerName": "Mariele Maccaig",
       "email": "mmaccaig9@nifty.com",
-      "gender": "Female",
+      "country": "Canada",
       "address": "538 Fuller Street",
       "phone": "(557) 5978383",
       "birthday": "10/03/1993",
-      "photo": ["htt"],
       "password": "Orsyb1NFreq"
-    },
-    {
-      "id": 10,
-      "fullName": "Darcey Harborow",
-      "email": "dharborowa@ca.gov",
-      "gender": "Female",
-      "address": "3415 Delaware Circle",
-      "phone": "(682) 4541234",
-      "birthday": "23/05/2004",
-      "photo": ["htt"],
-      "password": "T4Pa1Qe56eU8"
-    },
-    {
-      "id": 11,
-      "fullName": "Bourke Currington",
-      "email": "bcurringtonb@histats.com",
-      "gender": "Male",
-      "address": "19 Elmside Avenue",
-      "phone": "(136) 8614149",
-      "birthday": "04/01/2001",
-      "photo": ["htt"],
-      "password": "rzimYcjNun"
-    },
-    {
-      "id": 12,
-      "fullName": "Cassi Duffill",
-      "email": "cduffillc@cnn.com",
-      "gender": "Female",
-      "address": "29832 Artisan Hill",
-      "phone": "(318) 3962649",
-      "birthday": "11/04/2004",
-      "photo": ["htt"],
-      "password": "MJw9gt"
-    },
-    {
-      "id": 13,
-      "fullName": "Carmine Spaughton",
-      "email": "cspaughtond@virginia.edu",
-      "gender": "Male",
-      "address": "003 3rd Pass",
-      "phone": "(611) 1119008",
-      "birthday": "12/03/1997",
-      "photo": ["htt"],
-      "password": "vM5VFo0LEU"
-    },
-    {
-      "id": 14,
-      "fullName": "Tamara Callum",
-      "email": "tcallume@salon.com",
-      "gender": "Female",
-      "address": "8 Marquette Alley",
-      "phone": "(536) 3776783",
-      "birthday": "02/01/1996",
-      "photo": ["htt"],
-      "password": "ZPcM91Ru"
     }
   ],
   "Categories": [
@@ -819,68 +762,84 @@
       "size": ["M", "L", "XL"],
       "color": ["Đỏ", "Đen", "Trắng"],
       "quantity": 12
+    },
+    {
+      "productName": "asdasd",
+      "price": "1",
+      "CategoryId": "Áo Hoodie",
+      "SupplierId": "Cty THHH Trung Phan",
+      "unit": "1kg",
+      "photo": "C:\\fakepath\\jx2huyenthoai.com (v16.3) 2022-12-25 16-37-45.mp4",
+      "quantity": "12",
+      "size": "X",
+      "color": "den",
+      "id": 6
     }
   ],
   "Orders": [
     {
       "id": 1,
-      "orderList": [
+      "orderDetail": [
         {
-          "ProductId": 1,
+          "id": 1,
+          "ProductId": 2,
           "quantity": 1,
-          "salePrice": 120000
+          "salePrice": 120000,
+          "OrderId": 1,
+          "productName": "Ao vest basic",
+          "price": 3000
         },
         {
+          "id": 2,
           "ProductId": 2,
           "quantity": 2,
-          "salePrice": 11000
+          "salePrice": 11000,
+          "OrderId": 1,
+          "productName": "Ao vest basic",
+          "price": 3000
         }
       ],
-      "EmployeeID": 1,
-      "CustomerID": 1,
+      "EmployeeId": 2,
+      "employeeName": "Alvie",
+      "CustomerId": 1,
+      "customerName": "Athene Detloff",
       "orderTime": "12/1/2022",
-      "finishedTime": "12/1/2022",
+      "acceptTime": "",
+      "shippingTime": "",
+      "finishedTime": "",
       "status": 1
     },
     {
       "id": 2,
-      "orderList": [
+      "OrderDetail": [
         {
-          "ProductId": 1,
+          "id": 1,
+          "ProductId": 2,
           "quantity": 1,
-          "salePrice": 120000
+          "salePrice": 120000,
+          "OrderId": 1,
+          "productName": "Ao vest basic",
+          "price": 3000
         },
         {
+          "id": 2,
           "ProductId": 2,
           "quantity": 2,
-          "salePrice": 11000
+          "salePrice": 11000,
+          "OrderId": 1,
+          "productName": "Ao vest basic",
+          "price": 3000
         }
       ],
       "EmployeeId": 3,
+      "employeeName": "Blaska",
+      "customerName": "Athene Detloff",
       "CustomerId": 1,
       "orderTime": "12/1/2022",
+      "acceptTime": "12/1/2022",
+      "shippingTime": "12/1/2022",
       "finishedTime": "12/1/2022",
-      "status": 1
-    },
-    {
-      "id": 3,
-      "orderList": [
-        {
-          "ProductId": 1,
-          "quantity": 1,
-          "salePrice": 120000
-        },
-        {
-          "ProductId": 2,
-          "quantity": 2,
-          "salePrice": 11000
-        }
-      ],
-      "EmployeeId": 1,
-      "CustomerId": 1,
-      "orderTime": "12/1/2022",
-      "finishedTime": "12/1/2022",
-      "status": 1
+      "status": 4
     }
   ]
 }
