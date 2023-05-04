@@ -16,7 +16,7 @@ server.use(bodyParser.json());
 server.use(jsonServer.defaults());
 
 const SECRET_KEY = "0966906329";
-const expiresIn = "1h";
+const expiresIn = 60;
 
 // Create a token from a payload
 function createToken(payload) {
@@ -55,11 +55,11 @@ server.post("/auth/login", (req, res) => {
     res.status(status).json({ status, message });
     return;
   }
-  const { id, fullname, address, phone, photo, gender, birthday } = userAccess;
+  const { id, fullName, address, phone, photo, gender, birthday } = userAccess;
   const access_token = createToken({
     email,
     id,
-    fullname,
+    fullName,
     address,
     phone,
     photo,
@@ -78,11 +78,11 @@ server.post("/auth/refreshtoken", (req, res) => {
     res.status(status).json({ status, message });
     return;
   }
-  const { id, fullname, address, phone, photo, gender, birthday } = userAccess;
+  const { id, fullName, address, phone, photo, gender, birthday } = userAccess;
   const access_token = createToken({
     email,
     id,
-    fullname,
+    fullName,
     address,
     phone,
     photo,

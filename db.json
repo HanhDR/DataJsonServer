@@ -7,6 +7,7 @@
       "birthday": "27/03/2001",
       "gender": "Male",
       "phone": "(786) 1554473",
+      "photo": ["htt"],
       "id": 1,
       "password": "1234"
     },
@@ -76,6 +77,16 @@
       "phone": "(786) 1554473",
       "birthday": "27/03/2001",
       "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
+      "id": 1
+    },
+    {
+      "fullName": "Alvie Copozio ",
+      "email": "acopozio0@vk.com",
+      "gender": "Male",
+      "address": "363 Service Alley",
+      "phone": "(786) 1554473",
+      "birthday": "27/03/2001",
+      "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
       "id": 2
     },
     {
@@ -129,6 +140,46 @@
       "birthday": "19/10/2002",
       "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
       "id": 7
+    },
+    {
+      "fullName": "Trueman Kollaschek",
+      "email": "tkollaschek4@technorati.com",
+      "gender": "Nam",
+      "address": "0086 Monterey Alley",
+      "phone": "8335019701",
+      "birthday": "19/10/2002",
+      "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
+      "id": 8
+    },
+    {
+      "fullName": "Trueman Kollaschek",
+      "email": "tkollaschek4@technorati.com",
+      "gender": "Nam",
+      "address": "0086 Monterey Alley",
+      "phone": "8335019701",
+      "birthday": "19/10/2002",
+      "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
+      "id": 9
+    },
+    {
+      "fullName": "Trueman Kollaschek",
+      "email": "tkollaschek4@technorati.com",
+      "gender": "Nam",
+      "address": "0086 Monterey Alley",
+      "phone": "8335019701",
+      "birthday": "19/10/2002",
+      "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
+      "id": 10
+    },
+    {
+      "fullName": "Trueman Kollaschek",
+      "email": "tkollaschek4@technorati.com",
+      "gender": "Nam",
+      "address": "0086 Monterey Alley",
+      "phone": "8335019701",
+      "birthday": "19/10/2002",
+      "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
+      "id": 11
     }
   ],
   "Customers": [
@@ -242,13 +293,13 @@
   ],
   "Categories": [
     {
-      "categoryName": "Áo Hoodie",
+      "categoryName": "Ao Hoodie",
       "description": "Áo thu đông",
       "id": 1
     },
     {
       "id": 2,
-      "categoryName": "Áo Vest và Balzer",
+      "categoryName": "Ao Vest và Balzer",
       "description": "Áo quý ông"
     },
     {
@@ -258,7 +309,7 @@
     },
     {
       "id": 4,
-      "categoryName": "Áo Ba lỗ",
+      "categoryName": "Ao Ba lỗ",
       "description": "Áo mùa hè"
     },
     {
@@ -279,13 +330,13 @@
   ],
   "Suppliers": [
     {
-      "id": 2,
       "supplierName": "Cty THHH Quyền Anh",
       "contactName": "CTy TNHH Một Thành Viên DuCJDK",
       "address": "08997 Schiller Hill",
-      "phone": "668-847-7905",
+      "phone": "0966980328",
       "country": "VietNam",
-      "city": "Qiaozi"
+      "city": "Qiaozi",
+      "id": 2
     },
     {
       "supplierName": "Cty THHH Thiện Đặng",
@@ -313,15 +364,6 @@
       "phone": "926-203-1125",
       "country": "VietNam",
       "city": "Cancela"
-    },
-    {
-      "supplierName": "Hạnh đẹp trai",
-      "contactName": "CTy TNHH Một Thành Viên DuCJDK",
-      "address": "38348 Esch Court",
-      "phone": "5464094692",
-      "country": "VietNam",
-      "city": "Cancela",
-      "id": 6
     }
   ],
   "Countries": [
@@ -734,7 +776,7 @@
       "CategoryId": 2,
       "SupplierId": 3,
       "unit": "Dollar",
-      "photo": ["htt"],
+      "photo": ["https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg"],
       "size": ["M", "L", "XL"],
       "color": ["Đỏ", "Đen", "Trắng"],
       "quantity": 11
@@ -746,7 +788,7 @@
       "CategoryId": 4,
       "SupplierId": 5,
       "unit": "million",
-      "photo": [""],
+      "photo": ["https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg"],
       "size": ["M", "L", "XL"],
       "color": ["Đỏ", "Đen", "Trắng"],
       "quantity": 13
@@ -758,7 +800,43 @@
       "CategoryId": 6,
       "SupplierId": 3,
       "unit": "million",
-      "photo": [""],
+      "photo": ["https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg"],
+      "size": ["M", "L", "XL"],
+      "color": ["Đỏ", "Đen", "Trắng"],
+      "quantity": 12
+    },
+    {
+      "id": 6,
+      "productName": "Quần Jean ống rộng",
+      "price": 5000,
+      "CategoryId": 6,
+      "SupplierId": 3,
+      "unit": "million",
+      "photo": ["https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg"],
+      "size": ["M", "L", "XL"],
+      "color": ["Đỏ", "Đen", "Trắng"],
+      "quantity": 12
+    },
+    {
+      "id": 7,
+      "productName": "Quần Jean ống rộng",
+      "price": 5000,
+      "CategoryId": 6,
+      "SupplierId": 3,
+      "unit": "million",
+      "photo": ["https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg"],
+      "size": ["M", "L", "XL"],
+      "color": ["Đỏ", "Đen", "Trắng"],
+      "quantity": 12
+    },
+    {
+      "id": 8,
+      "productName": "Quần Jean ống rộng",
+      "price": 5000,
+      "CategoryId": 6,
+      "SupplierId": 3,
+      "unit": "million",
+      "photo": ["https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg"],
       "size": ["M", "L", "XL"],
       "color": ["Đỏ", "Đen", "Trắng"],
       "quantity": 12
