@@ -1,13 +1,13 @@
 {
   "Users": [
     {
-      "fullName": "Duc Hanu",
+      "fullName": "Duc Hann",
       "email": "admin@gmail.com",
       "address": "363 Service Alley",
       "birthday": "27/03/2001",
       "gender": "Male",
       "phone": "(786) 1554473",
-      "photo": ["htt"],
+      "photo": "http://localhost:3000/images/1683859299904-hanhdb.jpg",
       "id": 1,
       "password": "1234"
     },
@@ -19,7 +19,7 @@
       "address": "363 Service Alley",
       "phone": "(786) 1554473",
       "birthday": "27/03/2001",
-      "photo": ["htt"],
+      "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
       "password": "123"
     },
     {
@@ -30,7 +30,7 @@
       "address": "6187 Burrows Center",
       "phone": "(715) 3116971",
       "birthday": "25/04/1996",
-      "photo": ["htt"],
+      "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
       "password": "123"
     },
     {
@@ -41,7 +41,7 @@
       "address": "1 Esker Point",
       "phone": "(113) 7442515",
       "birthday": "19/10/2002",
-      "photo": ["htt"],
+      "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
       "password": "123"
     },
     {
@@ -52,7 +52,7 @@
       "address": "2655 Roxbury Drive",
       "phone": "(311) 2451823",
       "birthday": "14/11/1991",
-      "photo": ["htt"],
+      "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
       "password": "123"
     },
     {
@@ -63,11 +63,10 @@
       "address": "0086 Monterey Alley",
       "phone": "(833) 5019701",
       "birthday": "25/12/1995",
-      "photo": ["htt"],
+      "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
       "password": "123"
     }
   ],
-
   "Employees": [
     {
       "fullName": "Alvie Copozio ",
@@ -76,7 +75,7 @@
       "address": "363 Service Alley",
       "phone": "(786) 1554473",
       "birthday": "27/03/2001",
-      "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
+      "photo": "http://localhost:3000/images/1683682254196-tkmatloz.jpg",
       "id": 1
     },
     {
@@ -86,19 +85,18 @@
       "address": "363 Service Alley",
       "phone": "(786) 1554473",
       "birthday": "27/03/2001",
-      "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
+      "photo": "http://localhost:3000/images/1683682405409-hanhdb.jpg",
       "id": 2
     },
     {
-      "id": 3,
       "fullName": "Ramsey Rosberg",
       "email": "rrosberg1@ibm.com",
       "gender": "Male",
       "address": "6187 Burrows Center",
       "phone": "(715) 3116971",
       "birthday": "25/04/1996",
-      "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
-      "password": "123"
+      "photo": "http://localhost:3000/images/1683682445382-330142111_973269200317836_614420818685068723_n.jpg",
+      "id": 3
     },
     {
       "fullName": "Natala Eke",
@@ -107,7 +105,7 @@
       "address": "1 Esker Point",
       "phone": "(113) 7442515",
       "birthday": "19/10/2002",
-      "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
+      "photo": "http://localhost:3000/images/1683682813197-default-img.png",
       "id": 4
     },
     {
@@ -180,6 +178,16 @@
       "birthday": "19/10/2002",
       "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
       "id": 11
+    },
+    {
+      "fullName": "Huynh Trong Duc",
+      "email": "duchuynh360@gmail.com",
+      "gender": "Nữ",
+      "address": "30 An Duong Vuong, Hue",
+      "phone": "0966906326",
+      "birthday": "2000-04-14",
+      "photo": "http://localhost:3000/images/1683605209048-330142111_973269200317836_614420818685068723_n.jpg",
+      "id": 12
     }
   ],
   "Customers": [
@@ -201,7 +209,6 @@
       "address": "6066 Northwestern Trail",
       "phone": "(583) 2363250",
       "birthday": "29/05/1997",
-
       "password": "v8pPVL7HB1NK"
     },
     {
@@ -212,7 +219,6 @@
       "address": "02 Warner Court",
       "phone": "(898) 5216196",
       "birthday": "22/06/1994",
-
       "password": "9d2OUHJK"
     },
     {
@@ -223,7 +229,6 @@
       "address": "3 Eggendart Plaza",
       "phone": "(361) 7245297",
       "birthday": "22/12/1997",
-
       "password": "xOHD2SALUG6O"
     },
     {
@@ -234,7 +239,6 @@
       "address": "66798 Ilene Circle",
       "phone": "(901) 6764729",
       "birthday": "14/02/1994",
-
       "password": "lYEkJrui9N"
     },
     {
@@ -245,7 +249,6 @@
       "address": "848 Amoth Circle",
       "phone": "(487) 4854813",
       "birthday": "20/01/2002",
-
       "password": "92tkKFb"
     },
     {
@@ -256,7 +259,6 @@
       "address": "395 Delladonna Circle",
       "phone": "(557) 3298700",
       "birthday": "31/07/2001",
-
       "password": "9iVhlpINZV0U"
     },
     {
@@ -267,7 +269,6 @@
       "address": "425 Prairie Rose Plaza",
       "phone": "(203) 6106759",
       "birthday": "29/10/1997",
-
       "password": "NQdYfLRNVR1I"
     },
     {
@@ -335,7 +336,7 @@
       "address": "08997 Schiller Hill",
       "phone": "0966980328",
       "country": "VietNam",
-      "city": "Qiaozi",
+      "city": "Hue",
       "id": 2
     },
     {
@@ -770,15 +771,23 @@
   ],
   "Products": [
     {
-      "id": 2,
+      "id": 1,
       "productName": "Ao vest basic",
       "price": 3000,
       "CategoryId": 2,
       "SupplierId": 3,
       "unit": "Dollar",
-      "photo": ["https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg"],
-      "size": ["M", "L", "XL"],
-      "color": ["Đỏ", "Đen", "Trắng"],
+      "photo": "https://zpsocial-f50-org.zadn.vn/70d1e2eebbb655e80ca7.jpg",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Đỏ",
+        "Đen",
+        "Trắng"
+      ],
       "quantity": 11
     },
     {
@@ -788,9 +797,17 @@
       "CategoryId": 4,
       "SupplierId": 5,
       "unit": "million",
-      "photo": ["https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg"],
-      "size": ["M", "L", "XL"],
-      "color": ["Đỏ", "Đen", "Trắng"],
+      "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Đỏ",
+        "Đen",
+        "Trắng"
+      ],
       "quantity": 13
     },
     {
@@ -800,9 +817,17 @@
       "CategoryId": 6,
       "SupplierId": 3,
       "unit": "million",
-      "photo": ["https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg"],
-      "size": ["M", "L", "XL"],
-      "color": ["Đỏ", "Đen", "Trắng"],
+      "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Đỏ",
+        "Đen",
+        "Trắng"
+      ],
       "quantity": 12
     },
     {
@@ -812,9 +837,17 @@
       "CategoryId": 6,
       "SupplierId": 3,
       "unit": "million",
-      "photo": ["https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg"],
-      "size": ["M", "L", "XL"],
-      "color": ["Đỏ", "Đen", "Trắng"],
+      "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Đỏ",
+        "Đen",
+        "Trắng"
+      ],
       "quantity": 12
     },
     {
@@ -824,9 +857,17 @@
       "CategoryId": 6,
       "SupplierId": 3,
       "unit": "million",
-      "photo": ["https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg"],
-      "size": ["M", "L", "XL"],
-      "color": ["Đỏ", "Đen", "Trắng"],
+      "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Đỏ",
+        "Đen",
+        "Trắng"
+      ],
       "quantity": 12
     },
     {
@@ -836,22 +877,75 @@
       "CategoryId": 6,
       "SupplierId": 3,
       "unit": "million",
-      "photo": ["https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg"],
-      "size": ["M", "L", "XL"],
-      "color": ["Đỏ", "Đen", "Trắng"],
+      "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Đỏ",
+        "Đen",
+        "Trắng"
+      ],
       "quantity": 12
+    }
+  ],
+  "ProductPhotos": [
+    {
+      "id": 2,
+      "urlImg": "https://duhocsunny.edu.vn/wp-content/uploads/2023/02/Anh-gai-xinh-Han-Quoc-Ji-Seong.jpg",
+      "description": "Ảnh gái xinh 2",
+      "priority": "2",
+      "color": "blue",
+      "ProductId": 1
     },
     {
-      "productName": "asdasd",
-      "price": "1",
-      "CategoryId": "Áo Hoodie",
-      "SupplierId": "Cty THHH Trung Phan",
-      "unit": "1kg",
-      "photo": "C:\\fakepath\\jx2huyenthoai.com (v16.3) 2022-12-25 16-37-45.mp4",
-      "quantity": "12",
-      "size": "X",
-      "color": "den",
+      "id": 3,
+      "urlImg": "https://thuthuatnhanh.com/wp-content/uploads/2019/07/anh-girl-xinh-facebook-tuyet-dep-387x580.jpg",
+      "description": "Ảnh gái xinh 3",
+      "priority": "3",
+      "color": "yellow",
+      "ProductId": 1
+    },
+    {
+      "id": 4,
+      "urlImg": "https://haycafe.vn/wp-content/uploads/2022/02/Anh-gai-xinh-de-thuong.jpg",
+      "description": "Ảnh gái xinh 4",
+      "priority": "4",
+      "color": "black",
+      "ProductId": 1
+    },
+    {
+      "description": "Ảnh gái xinh 5",
+      "priority": "5",
+      "color": "pink",
+      "urlImg": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
       "id": 6
+    },
+    {
+      "description": "Ảnh gái xinh 8",
+      "priority": "1",
+      "color": "red",
+      "urlImg": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
+      "ProductId": 6,
+      "id": 9
+    },
+    {
+      "description": "Ảnh gái xinh 6",
+      "priority": "3",
+      "color": "red",
+      "urlImg": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
+      "ProductId": 1,
+      "id": 10
+    },
+    {
+      "description": "Hạnh xinh gái",
+      "priority": "3",
+      "color": "red",
+      "urlImg": "http://localhost:3000/images/1683685337340-hanhdb.jpg",
+      "ProductId": 9,
+      "id": 11
     }
   ],
   "Orders": [

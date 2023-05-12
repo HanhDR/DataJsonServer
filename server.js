@@ -1,6 +1,8 @@
 const fs = require("fs");
 const bodyParser = require("body-parser");
 const jsonServer = require("json-server");
+const middlewares = jsonServer.defaults();
+const multer = require("multer");
 const jwt = require("jsonwebtoken");
 const { log } = require("console");
 
@@ -8,15 +10,15 @@ const server = jsonServer.create();
 
 const router = jsonServer.router("./db.json");
 
-const data = JSON.parse(fs.readFileSync("./db.json", "UTF-8"));
-const userdb = data.Users;
+let data = JSON.parse(fs.readFileSync("./db.json", "UTF-8"));
+let userdb = data.Users;
 
 server.use(bodyParser.urlencoded({ extended: true }));
 server.use(bodyParser.json());
 server.use(jsonServer.defaults());
 
 const SECRET_KEY = "0966906329";
-const expiresIn = 60;
+const expiresIn = "1h";
 
 // Create a token from a payload
 function createToken(payload) {
@@ -26,12 +28,14 @@ function createToken(payload) {
 // Verify the token
 function verifyToken(token) {
   return jwt.verify(token, SECRET_KEY, (err, decode) =>
-    decode !== undefined ? decode : err
+    err !== undefined ? decode : err
   );
 }
 
 // Check if the user exists in database
 function isAuthenticated({ email, password }) {
+  data = JSON.parse(fs.readFileSync("./db.json", "UTF-8"));
+  userdb = data.Users;
   const indexUser = userdb.findIndex(
     (user) => user.email === email && user.password === password
   );
@@ -92,6 +96,29 @@ server.post("/auth/refreshtoken", (req, res) => {
   res.status(200).json({ access_token });
 });
 
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    cb(null, "public/images");
+  },
+  filename: (req, file, cb) => {
+    cb(null, `${Date.now()}-${file.originalname}`);
+  },
+});
+
+const upload = multer({ storage });
+
+server.use(jsonServer.bodyParser);
+server.use(middlewares);
+
+server.post("/images", upload.single("image"), (req, res) => {
+  const image = {
+    id: Date.now(),
+    url: `http://localhost:3000/images/${req.file.filename}`,
+  };
+
+  res.status(201).json(image);
+});
+
 server.use(/^(?!\/auth).*$/, (req, res, next) => {
   if (
     req.headers.authorization === undefined ||
@@ -103,11 +130,18 @@ server.use(/^(?!\/auth).*$/, (req, res, next) => {
     return;
   }
   try {
-    verifyToken(req.headers.authorization.split(" ")[1]);
+    let verifyTokenResult;
+    verifyTokenResult = verifyToken(req.headers.authorization.split(" ")[1]);
+    if (verifyTokenResult === undefined) {
+      const status = 401;
+      const message = "Access token is expired";
+      res.status(status).json({ status, message });
+      return;
+    }
     next();
   } catch (err) {
     const status = 401;
-    const message = "Error: access_token is not valid";
+    const message = "Error access_token is revoked";
     res.status(status).json({ status, message });
   }
 });
