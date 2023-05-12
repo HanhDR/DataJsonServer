@@ -109,7 +109,6 @@
       "id": 4
     },
     {
-      "id": 5,
       "fullName": "Christabel Lindup",
       "email": "clindup3@taobao.com",
       "gender": "Female",
@@ -117,7 +116,7 @@
       "phone": "(311) 2451823",
       "birthday": "14/11/1991",
       "photo": "http://dummyimage.com/181x166.png/dddddd/000000",
-      "password": "123"
+      "id": 5
     },
     {
       "fullName": "Trueman Kollaschek",
@@ -778,16 +777,8 @@
       "SupplierId": 3,
       "unit": "Dollar",
       "photo": "https://zpsocial-f50-org.zadn.vn/70d1e2eebbb655e80ca7.jpg",
-      "size": [
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Đỏ",
-        "Đen",
-        "Trắng"
-      ],
+      "size": ["M", "L", "XL"],
+      "color": ["Đỏ", "Đen", "Trắng"],
       "quantity": 11
     },
     {
@@ -798,16 +789,8 @@
       "SupplierId": 5,
       "unit": "million",
       "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
-      "size": [
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Đỏ",
-        "Đen",
-        "Trắng"
-      ],
+      "size": ["M", "L", "XL"],
+      "color": ["Đỏ", "Đen", "Trắng"],
       "quantity": 13
     },
     {
@@ -818,16 +801,8 @@
       "SupplierId": 3,
       "unit": "million",
       "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
-      "size": [
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Đỏ",
-        "Đen",
-        "Trắng"
-      ],
+      "size": ["M", "L", "XL"],
+      "color": ["Đỏ", "Đen", "Trắng"],
       "quantity": 12
     },
     {
@@ -838,16 +813,8 @@
       "SupplierId": 3,
       "unit": "million",
       "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
-      "size": [
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Đỏ",
-        "Đen",
-        "Trắng"
-      ],
+      "size": ["M", "L", "XL"],
+      "color": ["Đỏ", "Đen", "Trắng"],
       "quantity": 12
     },
     {
@@ -858,16 +825,8 @@
       "SupplierId": 3,
       "unit": "million",
       "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
-      "size": [
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Đỏ",
-        "Đen",
-        "Trắng"
-      ],
+      "size": ["M", "L", "XL"],
+      "color": ["Đỏ", "Đen", "Trắng"],
       "quantity": 12
     },
     {
@@ -878,16 +837,8 @@
       "SupplierId": 3,
       "unit": "million",
       "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
-      "size": [
-        "M",
-        "L",
-        "XL"
-      ],
-      "color": [
-        "Đỏ",
-        "Đen",
-        "Trắng"
-      ],
+      "size": ["M", "L", "XL"],
+      "color": ["Đỏ", "Đen", "Trắng"],
       "quantity": 12
     }
   ],
@@ -951,26 +902,6 @@
   "Orders": [
     {
       "id": 1,
-      "orderDetail": [
-        {
-          "id": 1,
-          "ProductId": 2,
-          "quantity": 1,
-          "salePrice": 120000,
-          "OrderId": 1,
-          "productName": "Ao vest basic",
-          "price": 3000
-        },
-        {
-          "id": 2,
-          "ProductId": 2,
-          "quantity": 2,
-          "salePrice": 11000,
-          "OrderId": 1,
-          "productName": "Ao vest basic",
-          "price": 3000
-        }
-      ],
       "EmployeeId": 2,
       "employeeName": "Alvie",
       "CustomerId": 1,
@@ -979,30 +910,30 @@
       "acceptTime": "",
       "shippingTime": "",
       "finishedTime": "",
-      "status": 1
+      "status": -2,
+      "Employee": {
+        "fullName": "Alvie Copozio ",
+        "email": "acopozio0@vk.com",
+        "gender": "Male",
+        "address": "363 Service Alley",
+        "phone": "(786) 1554473",
+        "birthday": "27/03/2001",
+        "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
+        "id": 2
+      },
+      "Customer": {
+        "id": 1,
+        "customerName": "Reta Karolczyk",
+        "email": "rkarolczyk0@umn.edu",
+        "country": "VietNam",
+        "address": "812 Lindbergh Circle",
+        "phone": "(952) 3640498",
+        "birthday": "04/08/2002",
+        "password": "123"
+      }
     },
     {
       "id": 2,
-      "OrderDetail": [
-        {
-          "id": 1,
-          "ProductId": 2,
-          "quantity": 1,
-          "salePrice": 120000,
-          "OrderId": 1,
-          "productName": "Ao vest basic",
-          "price": 3000
-        },
-        {
-          "id": 2,
-          "ProductId": 2,
-          "quantity": 2,
-          "salePrice": 11000,
-          "OrderId": 1,
-          "productName": "Ao vest basic",
-          "price": 3000
-        }
-      ],
       "EmployeeId": 3,
       "employeeName": "Blaska",
       "customerName": "Athene Detloff",
@@ -1011,7 +942,290 @@
       "acceptTime": "12/1/2022",
       "shippingTime": "12/1/2022",
       "finishedTime": "12/1/2022",
-      "status": 4
+      "status": -2,
+      "Employee": {
+        "fullName": "Ramsey Rosberg",
+        "email": "rrosberg1@ibm.com",
+        "gender": "Male",
+        "address": "6187 Burrows Center",
+        "phone": "(715) 3116971",
+        "birthday": "25/04/1996",
+        "photo": "http://dummyimage.com/176x196.png/dddddd/000000",
+        "id": 3
+      },
+      "Customer": {
+        "id": 1,
+        "customerName": "Reta Karolczyk",
+        "email": "rkarolczyk0@umn.edu",
+        "country": "VietNam",
+        "address": "812 Lindbergh Circle",
+        "phone": "(952) 3640498",
+        "birthday": "04/08/2002",
+        "password": "123"
+      }
+    },
+    {
+      "CustomerId": "1",
+      "EmployeeId": "1",
+      "status": 0,
+      "orderTime": "12-05-2023 09:21:08 AM",
+      "acceptTime": "",
+      "shippingTime": "",
+      "finishedTime": "",
+      "customerName": "Reta Karolczyk",
+      "employeeName": "Alvie Copozio ",
+      "id": 3
+    },
+    {
+      "CustomerId": "4",
+      "EmployeeId": "7",
+      "status": 0,
+      "orderTime": "12-05-2023 09:29:51 AM",
+      "acceptTime": "",
+      "shippingTime": "",
+      "finishedTime": "",
+      "customerName": "Reta Karolczyk",
+      "employeeName": "Alvie Copozio ",
+      "id": 4
+    },
+    {
+      "CustomerId": "4",
+      "EmployeeId": "7",
+      "status": 0,
+      "orderTime": "12-05-2023 09:29:51 AM",
+      "acceptTime": "",
+      "shippingTime": "",
+      "finishedTime": "",
+      "customerName": "Reta Karolczyk",
+      "employeeName": "Alvie Copozio ",
+      "id": 5
+    },
+    {
+      "CustomerId": "4",
+      "EmployeeId": "7",
+      "status": 0,
+      "orderTime": "12-05-2023 09:29:51 AM",
+      "acceptTime": "",
+      "shippingTime": "",
+      "finishedTime": "",
+      "customerName": "Reta Karolczyk",
+      "employeeName": "Alvie Copozio ",
+      "id": 6
+    },
+    {
+      "CustomerId": "2",
+      "EmployeeId": "4",
+      "status": 0,
+      "orderTime": "12-05-2023 09:33:02 AM",
+      "acceptTime": "",
+      "shippingTime": "",
+      "finishedTime": "",
+      "customerName": "Reta Karolczyk",
+      "employeeName": "Alvie Copozio ",
+      "id": 7
+    },
+    {
+      "CustomerId": "1",
+      "EmployeeId": "1",
+      "status": 0,
+      "orderTime": "12-05-2023 09:34:06 AM",
+      "acceptTime": "",
+      "shippingTime": "",
+      "finishedTime": "",
+      "customerName": "Reta Karolczyk",
+      "employeeName": "Alvie Copozio ",
+      "id": 8
+    },
+    {
+      "CustomerId": "1",
+      "EmployeeId": "1",
+      "status": 0,
+      "orderTime": "12-05-2023 09:37:19 AM",
+      "acceptTime": "",
+      "shippingTime": "",
+      "finishedTime": "",
+      "customerName": "Reta Karolczyk",
+      "employeeName": "Alvie Copozio ",
+      "id": 9
+    },
+    {
+      "CustomerId": "1",
+      "EmployeeId": "1",
+      "status": 0,
+      "orderTime": "12-05-2023 09:38:23 AM",
+      "acceptTime": "",
+      "shippingTime": "",
+      "finishedTime": "",
+      "customerName": "Reta Karolczyk",
+      "employeeName": "Alvie Copozio ",
+      "id": 10
+    }
+  ],
+  "OrderDetails": [
+    {
+      "id": 1
+    },
+    {
+      "id": 3,
+      "ProductId": 2,
+      "quantity": 3,
+      "salePrice": 11000,
+      "OrderId": 2,
+      "productName": "Ao vest basic",
+      "price": 3000
+    },
+    {
+      "productId": 2,
+      "productName": "Ao vest basic",
+      "quantity": 3,
+      "price": 3000,
+      "total": 3000,
+      "OrderId": 3,
+      "id": 4
+    },
+    {
+      "productId": 4,
+      "productName": "Ao thun thu đông",
+      "quantity": 3,
+      "price": 6000,
+      "total": 18000,
+      "OrderId": 3,
+      "id": 5
+    },
+    {
+      "productId": 5,
+      "productName": "Quần Jean ống rộng",
+      "quantity": 3,
+      "price": 5000,
+      "total": 5000,
+      "OrderId": 3,
+      "id": 6
+    },
+    {
+      "productId": 2,
+      "productName": "Ao vest basic",
+      "quantity": 6,
+      "price": 3000,
+      "total": 18000,
+      "OrderId": 4,
+      "id": 7
+    },
+    {
+      "productId": 4,
+      "productName": "Ao thun thu đông",
+      "quantity": 2,
+      "price": 6000,
+      "total": 12000,
+      "OrderId": 4,
+      "id": 8
+    },
+    {
+      "productId": 2,
+      "productName": "Ao vest basic",
+      "quantity": 6,
+      "price": 3000,
+      "total": 18000,
+      "OrderId": 5,
+      "id": 9
+    },
+    {
+      "productId": 4,
+      "productName": "Ao thun thu đông",
+      "quantity": 2,
+      "price": 6000,
+      "total": 12000,
+      "OrderId": 5,
+      "id": 10
+    },
+    {
+      "productId": 2,
+      "productName": "Ao vest basic",
+      "quantity": 6,
+      "price": 3000,
+      "total": 18000,
+      "OrderId": 6,
+      "id": 11
+    },
+    {
+      "productId": 4,
+      "productName": "Ao thun thu đông",
+      "quantity": 2,
+      "price": 6000,
+      "total": 12000,
+      "OrderId": 6,
+      "id": 12
+    },
+    {
+      "productId": 2,
+      "productName": "Ao vest basic",
+      "quantity": 1,
+      "price": 3000,
+      "total": 3000,
+      "OrderId": 7,
+      "id": 13
+    },
+    {
+      "productId": 4,
+      "productName": "Ao thun thu đông",
+      "quantity": 1,
+      "price": 6000,
+      "total": 6000,
+      "OrderId": 7,
+      "id": 14
+    },
+    {
+      "productId": 2,
+      "productName": "Ao vest basic",
+      "quantity": 1,
+      "price": 3000,
+      "total": 3000,
+      "OrderId": 8,
+      "id": 15
+    },
+    {
+      "productId": 4,
+      "productName": "Ao thun thu đông",
+      "quantity": 1,
+      "price": 6000,
+      "total": 6000,
+      "OrderId": 8,
+      "id": 16
+    },
+    {
+      "productId": 2,
+      "productName": "Ao vest basic",
+      "quantity": 1,
+      "price": 3000,
+      "total": 3000,
+      "OrderId": 9,
+      "id": 17
+    },
+    {
+      "productId": 4,
+      "productName": "Ao thun thu đông",
+      "quantity": 1,
+      "price": 6000,
+      "total": 6000,
+      "OrderId": 9,
+      "id": 18
+    },
+    {
+      "productId": 2,
+      "productName": "Ao vest basic",
+      "quantity": 1,
+      "price": 3000,
+      "total": 3000,
+      "OrderId": 10,
+      "id": 19
+    },
+    {
+      "productId": 4,
+      "productName": "Ao thun thu đông",
+      "quantity": 1,
+      "price": 6000,
+      "total": 6000,
+      "OrderId": 10,
+      "id": 20
     }
   ]
 }
