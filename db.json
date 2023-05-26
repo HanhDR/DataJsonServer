@@ -7,7 +7,7 @@
       "birthday": "27/03/2001",
       "gender": "Male",
       "phone": "(786) 1554473",
-      "photo": "http://localhost:3000/images/1683859299904-hanhdb.jpg",
+      "photo": "http://localhost:3000/images/1684286841099-favicon.ico",
       "id": 1,
       "password": "1234"
     },
@@ -777,8 +777,16 @@
       "SupplierId": 3,
       "unit": "Dollar",
       "photo": "https://zpsocial-f50-org.zadn.vn/70d1e2eebbb655e80ca7.jpg",
-      "size": ["M", "L", "XL"],
-      "color": ["Đỏ", "Đen", "Trắng"],
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Đỏ",
+        "Đen",
+        "Trắng"
+      ],
       "quantity": 11
     },
     {
@@ -789,8 +797,16 @@
       "SupplierId": 5,
       "unit": "million",
       "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
-      "size": ["M", "L", "XL"],
-      "color": ["Đỏ", "Đen", "Trắng"],
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Đỏ",
+        "Đen",
+        "Trắng"
+      ],
       "quantity": 13
     },
     {
@@ -801,8 +817,16 @@
       "SupplierId": 3,
       "unit": "million",
       "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
-      "size": ["M", "L", "XL"],
-      "color": ["Đỏ", "Đen", "Trắng"],
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Đỏ",
+        "Đen",
+        "Trắng"
+      ],
       "quantity": 12
     },
     {
@@ -813,8 +837,16 @@
       "SupplierId": 3,
       "unit": "million",
       "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
-      "size": ["M", "L", "XL"],
-      "color": ["Đỏ", "Đen", "Trắng"],
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Đỏ",
+        "Đen",
+        "Trắng"
+      ],
       "quantity": 12
     },
     {
@@ -825,8 +857,16 @@
       "SupplierId": 3,
       "unit": "million",
       "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
-      "size": ["M", "L", "XL"],
-      "color": ["Đỏ", "Đen", "Trắng"],
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Đỏ",
+        "Đen",
+        "Trắng"
+      ],
       "quantity": 12
     },
     {
@@ -837,8 +877,16 @@
       "SupplierId": 3,
       "unit": "million",
       "photo": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
-      "size": ["M", "L", "XL"],
-      "color": ["Đỏ", "Đen", "Trắng"],
+      "size": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "color": [
+        "Đỏ",
+        "Đen",
+        "Trắng"
+      ],
       "quantity": 12
     }
   ],
@@ -889,14 +937,6 @@
       "urlImg": "https://taimienphi.vn/tmp/cf/aut/anh-gai-xinh-1.jpg",
       "ProductId": 1,
       "id": 10
-    },
-    {
-      "description": "Hạnh xinh gái",
-      "priority": "3",
-      "color": "red",
-      "urlImg": "http://localhost:3000/images/1683685337340-hanhdb.jpg",
-      "ProductId": 9,
-      "id": 11
     }
   ],
   "Orders": [
@@ -1059,20 +1099,47 @@
       "customerName": "Reta Karolczyk",
       "employeeName": "Alvie Copozio ",
       "id": 10
+    },
+    {
+      "CustomerId": "1",
+      "EmployeeId": "3",
+      "status": 0,
+      "orderTime": "12-05-2023 10:13:35 AM",
+      "acceptTime": "",
+      "shippingTime": "",
+      "finishedTime": "",
+      "customerName": "Reta Karolczyk",
+      "employeeName": "Alvie Copozio ",
+      "id": 11
+    },
+    {
+      "CustomerId": "1",
+      "EmployeeId": "4",
+      "status": 0,
+      "orderTime": "26-05-2023 09:58:58 AM",
+      "acceptTime": "",
+      "shippingTime": "",
+      "finishedTime": "",
+      "customerName": "Reta Karolczyk",
+      "employeeName": "Alvie Copozio ",
+      "id": 12
+    },
+    {
+      "CustomerId": "1",
+      "EmployeeId": "12",
+      "status": 0,
+      "orderTime": "26-05-2023 09:58:58 AM",
+      "acceptTime": "",
+      "shippingTime": "",
+      "finishedTime": "",
+      "customerName": "Reta Karolczyk",
+      "employeeName": "Alvie Copozio ",
+      "id": 13
     }
   ],
   "OrderDetails": [
     {
       "id": 1
-    },
-    {
-      "id": 3,
-      "ProductId": 2,
-      "quantity": 3,
-      "salePrice": 11000,
-      "OrderId": 2,
-      "productName": "Ao vest basic",
-      "price": 3000
     },
     {
       "productId": 2,
@@ -1156,17 +1223,8 @@
       "id": 12
     },
     {
-      "productId": 2,
-      "productName": "Ao vest basic",
-      "quantity": 1,
-      "price": 3000,
-      "total": 3000,
-      "OrderId": 7,
-      "id": 13
-    },
-    {
       "productId": 4,
-      "productName": "Ao thun thu đông",
+      "productName": "Ao thun thu đông aaa",
       "quantity": 1,
       "price": 6000,
       "total": 6000,
@@ -1226,6 +1284,87 @@
       "total": 6000,
       "OrderId": 10,
       "id": 20
+    },
+    {
+      "productId": 1,
+      "productName": "Ao vest basic",
+      "quantity": 3,
+      "price": 3000,
+      "total": 9000,
+      "OrderId": 11,
+      "id": 21
+    },
+    {
+      "productId": 4,
+      "productName": "Ao thun thu đông",
+      "quantity": 1,
+      "price": 6000,
+      "total": 6000,
+      "OrderId": 11,
+      "id": 22
+    },
+    {
+      "productId": 1,
+      "productName": "Ao vest basic",
+      "quantity": 1,
+      "price": 3000,
+      "total": 3000,
+      "OrderId": 12,
+      "id": 23
+    },
+    {
+      "productId": 4,
+      "productName": "Ao thun thu đông",
+      "quantity": 1,
+      "price": 6000,
+      "total": 6000,
+      "OrderId": 12,
+      "id": 24
+    },
+    {
+      "productId": 1,
+      "productName": "Ao vest basic",
+      "quantity": 1,
+      "price": 3000,
+      "total": 3000,
+      "OrderId": 12,
+      "id": 25
+    },
+    {
+      "productId": 5,
+      "productName": "Quần Jean ống rộng",
+      "quantity": 1,
+      "price": 5000,
+      "total": 5000,
+      "OrderId": 12,
+      "id": 26
+    },
+    {
+      "productId": 1,
+      "productName": "Ao vest basic",
+      "quantity": 1,
+      "price": 3000,
+      "total": 3000,
+      "OrderId": 13,
+      "id": 27
+    },
+    {
+      "productId": 4,
+      "productName": "Ao thun thu đông",
+      "quantity": 1,
+      "price": 6000,
+      "total": 6000,
+      "OrderId": 13,
+      "id": 28
+    },
+    {
+      "productId": 5,
+      "productName": "Quần Jean ống rộng",
+      "quantity": 1,
+      "price": 5000,
+      "total": 5000,
+      "OrderId": 13,
+      "id": 29
     }
   ]
 }
